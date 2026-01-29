@@ -15,7 +15,7 @@ Welcome to my GitHub! I am currently a 2nd-year **Computer Engineering** student
 ## 💼 Professional Background
 Coming from a background in **Logistics and Operations**, I bring a strong work ethic, discipline, and a deep understanding of **Data Integrity** and **Confidentiality** to the tech world.
 
-## 🛡️ Cybersecurity Learning Lab
+## 💻 Cybersecurity Learning Lab
 I am currently developing my skills in Cybersecurity. You can follow my detailed progress, notes, and labs here:
 
 👉 **[View my Learning Experience & Labs](./LearningLabs.md)**
