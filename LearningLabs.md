@@ -6,6 +6,6 @@ This is a documented space designed to share my learning experiences and evoluti
 
 ## TryHackMe
    - **Paths:**
-      - [Pre Security](https://github.com/BroteusSKTP/BroteusSKTP/blob/main/PreSecurity.md)
+      - [Pre Security](PreSecurity.md)
 ---
 *Updated by: Tiago Palaio (BroteusSK).
