@@ -1,3 +1,9 @@
+## Home Lab Setup
+* **Vmware Workstation:**
+   - Kali Linux (Rolling Release)
+
+<br>
+
 ## Introduction to Cyber Security
 ---
 ### ✅ 1. Offensive Security Intro
