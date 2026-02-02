@@ -38,7 +38,7 @@
 ---
 ## Linux Fundamentals
 ---
-### ✅ 1. Linux Fundamentals Part 1
+### ✅ 1. Linux Fundamentals Part 1 [ <img width="95" height="100" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
 * **Status:** Completed on 02/02/2026.
 * **Objective:** Learn to run some of the first essential linux commands on an interactive terminal.
 * **Technical Notes:** Practical application in ubuntu terminal.
