@@ -1,20 +1,29 @@
 ## Home Lab Setup
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Tryhackme.com**
 * **Vmware Workstation:**
    - Kali Linux (Rolling Release)
+</details>
+
 ---
 ---
 ## Introduction to Cyber Security
 ---
 ### ✅ 1. Offensive Security Intro
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Status:** Completed on 29/01/2026.
 * **Objective:** Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
 * **Laboratory Execution:**
      - Established connectivity between Kali Linux (VMware) and the lab network via OpenVPN.
      - Performed directory enumeration using **DirBuster**.
 * **Knowledge Base:** Understanding Offensive Security.
+</details>
 
 ### ✅ 2. Defensive Security Intro
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Status:** Completed on 30/01/2026.
 * **Objective:** Introducing defensive security, what it involves and looks like within the real-world, as well as the technologies involved.
 * **Laboratory Execution:**
@@ -25,8 +34,11 @@
 * **Knowledge Base:**
      - Introduction to Blue Teaming, **Defensive Security** roles and operations.
      - Operational structure of a **SOC** (Security Operations Center) and the role of **SIEM** technology.
+</details>
 
 ### ✅ 3. Careers in Cyber
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Status:** Completed on 30/01/2026.
 * **Objective:** Learn about the different careers in cyber security.
 * **Laboratory Execution:** N/A.
@@ -35,10 +47,14 @@
         - **Security Analysis:** Focus on monitoring and incident response (Blue Team).
         - **Security Engineering:** Building and maintaining secure infrastructure.
         - **Penetration Testing:** Proactive vulnerability assessment (Red Team).
+</details>
+
 ---
 ## Network Fundamentals
 ---
 ### ✅ 1. What is Networking?
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Status:** Completed on 05/02/2026.
 * **Objective:** Begin learning the fundamentals of computer networking.
 * **Laboratory Execution:** Used the ping command to verify reachability between hosts.
@@ -48,13 +64,17 @@
       - **IPv4:** 32-bit addressing (decimal notation).
       - **IPv6:** 128-bit addressing (hexadecimal notation).
       - **MAC Address:** Physical hardware identification.
+</details>
 
 ### ✅ 2. Intro to LAN
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Status:** Completed on 05/02/2026.
 * **Objective:** Learn about some of the technologies and designs that power private networks
 * **Laboratory Execution:** N\A.
 * **Knowledge Base:**
    - **Lan Topologies:**
+  
       - **Star Topology:** Reliable and scalable by using centralized robust hardware (Switch/Hub).
          - Expensive due to the high volume of cabling and specialized equipment required.
       - **Bus Topology:** Cost-efficient and simple, using a single backbone cable.
@@ -80,10 +100,41 @@
       - **DHCP Offer:** Server offers an available IP.
       - **DHCP Request:** Client asks to lease that specific IP.
       - **DHCP ACK:** Server confirms and completes the process.
+</details>
+    
+### ✅ 3. OSI Model
+<details> <summary><b>Click to see summary</b></summary>
+   
+* **Status:** Completed on 05/02/2026.
+* **Objective:** Learn about the fundamental networking framework that determines the various stages in which data is handled across a network
+* **Laboratory Execution:** N/A.
+* **Knowledge Base:**
+   - **Open System Interconnection Model:**
+
+      - Critical model that provides a framework which dictates how all networked devices send, receive and interpret data.
+      - **Physical:** Handles the physical hardware and electrical signals (e.g., Ethernet cables, pins, voltages).
+      - **Data Link:** Focuses on physical addressing (MAC Address) and framing data for transmission.
+      - **Network:**
+         - Handles routing and IP addressing. This is where OSPF (Open Shortest Path First) and RIP (Routing Information Protocol) operate.
+         - Data is fragmented and re-assembled here; the Router is a primary Layer-3 device.
+      - **Transport:**
+         - Responsible for end-to-end communication.
+         - **TCP (Transmission Control Protocol):** Reliable and connection-oriented. Guarantees data accuracy (used in Email, Web browsing).
+         - **UDP (User Datagram Protocol):** Connectionless and fast. Prioritizes speed over reliability (used in Streaming, VoIP).
+      - **Session:**
+         - Establishes, manages, and terminates connections (sessions) between devices.
+         - Handles authentication and session timeouts.
+         - Provides checkpoints to resume data transfers if a failure occurs.
+      - **Presentation:** Acts as a translator. Handles data encryption, compression, and formatting (e.g., SSL/TLS, JPEG, GIF) so the application can understand it.
+      - **Application:** The layer where the user interacts with the network. Protocols like HTTP, FTP, and DNS operate here.
+</details>
+
 ---
 ## Linux Fundamentals
 ---
-### ✅ 1. Linux Fundamentals Part 1 [ <img width="95" height="100" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
+### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
+<details> <summary><b>Click to see summary</b></summary>
+   
 * **Status:** Completed on 02/02/2026.
 * **Objective:** Learn to run some of the first essential linux commands on an interactive terminal.
 * **Laboratory Execution:** Practical application in ubuntu terminal.
@@ -92,5 +143,7 @@
      - **Basic Commands:** `cd`, `ls`, `cat`, `pwd`.
      - **Search for Files:** `find`, `grep`.
      - **Shell Operators:** `&`, `&&`, `>`, `>>`.
+</details>
+
 ---
 *Updated by: Tiago Palaio (BroteusSK).
