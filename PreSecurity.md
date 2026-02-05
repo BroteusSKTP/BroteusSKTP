@@ -12,6 +12,7 @@
 ---
 ### ✅ 1. Offensive Security Intro
 <details> <summary><b>Click to see summary</b></summary>
+<br>   
    
 * **Status:** Completed on 29/01/2026.
 * **Objective:** Hack my first website (legally in a safe environment) and experience an ethical hacker's job.
@@ -23,6 +24,7 @@
 
 ### ✅ 2. Defensive Security Intro
 <details> <summary><b>Click to see summary</b></summary>
+<br>  
    
 * **Status:** Completed on 30/01/2026.
 * **Objective:** Introducing defensive security, what it involves and looks like within the real-world, as well as the technologies involved.
@@ -38,6 +40,7 @@
 
 ### ✅ 3. Careers in Cyber
 <details> <summary><b>Click to see summary</b></summary>
+<br>  
    
 * **Status:** Completed on 30/01/2026.
 * **Objective:** Learn about the different careers in cyber security.
@@ -54,6 +57,7 @@
 ---
 ### ✅ 1. What is Networking?
 <details> <summary><b>Click to see summary</b></summary>
+<br>  
    
 * **Status:** Completed on 05/02/2026.
 * **Objective:** Begin learning the fundamentals of computer networking.
@@ -68,6 +72,7 @@
 
 ### ✅ 2. Intro to LAN
 <details> <summary><b>Click to see summary</b></summary>
+<br>  
    
 * **Status:** Completed on 05/02/2026.
 * **Objective:** Learn about some of the technologies and designs that power private networks
@@ -104,6 +109,7 @@
     
 ### ✅ 3. OSI Model
 <details> <summary><b>Click to see summary</b></summary>
+<br>  
    
 * **Status:** Completed on 05/02/2026.
 * **Objective:** Learn about the fundamental networking framework that determines the various stages in which data is handled across a network
@@ -129,11 +135,75 @@
       - **Application:** The layer where the user interacts with the network. Protocols like HTTP, FTP, and DNS operate here.
 </details>
 
+### 🟡 4. Packets & Frames
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Understand how data is divided into smaller pieces and transmitted across a network to another device.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 5. Extending Your Network
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn about some of the technologies used to extend networks out onto the Internet and the motivations for this.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+---
+## How the Web Works
+---
+### 🟡 1. DNS in Detail
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn how DNS works and how it helps access internet services.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 2. HTTP in Detail
+<details> <summary><b>Click to see summary</b></summary>
+<br>
+   
+* **Status:** Not completed.
+* **Objective:** Learn about how to request content from a web server using the HTTP protocol.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 3. How Websites Work
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn how websites are created.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 4. Putting it all together
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn how all the individual components of the web work together.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
 ---
 ## Linux Fundamentals
 ---
 ### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
 <details> <summary><b>Click to see summary</b></summary>
+<br>  
    
 * **Status:** Completed on 02/02/2026.
 * **Objective:** Learn to run some of the first essential linux commands on an interactive terminal.
@@ -143,6 +213,59 @@
      - **Basic Commands:** `cd`, `ls`, `cat`, `pwd`.
      - **Search for Files:** `find`, `grep`.
      - **Shell Operators:** `&`, `&&`, `>`, `>>`.
+</details>
+
+### 🟡 2. Linux Fundamentals Part 2
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn how to log in to a Linux machine using SSH, how to advance commands, file system interaction.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 3. Linux Fundamentals Part 3
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Hands-on with some common utilities.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+---
+## Windows Fundamentals
+---
+### 🟡 1. Windows Fundamentals 1
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn about the Windows desktop, the NTFS file system, UAC, the Control Panel...
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 2. Windows Fundamentals 2
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry...
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 3. Windows Fundamentals 3
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** Not completed.
+* **Objective:** Learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker...
+* **Laboratory Execution:**
+* **Knowledge Base:**
 </details>
 
 ---
