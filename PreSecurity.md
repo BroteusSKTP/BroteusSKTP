@@ -14,7 +14,7 @@
 <details> <summary><b>Click to see summary</b></summary>
    
 * **Status:** Completed on 29/01/2026.
-* **Objective:** Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
+* **Objective:** Hack my first website (legally in a safe environment) and experience an ethical hacker's job.
 * **Laboratory Execution:**
      - Established connectivity between Kali Linux (VMware) and the lab network via OpenVPN.
      - Performed directory enumeration using **DirBuster**.
