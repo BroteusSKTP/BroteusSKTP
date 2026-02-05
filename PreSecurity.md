@@ -12,7 +12,7 @@
 * **Laboratory Execution:**
      - Established connectivity between Kali Linux (VMware) and the lab network via OpenVPN.
      - Performed directory enumeration using **DirBuster**.
-* **Knowledge Base:** Definition of Offensive Security.
+* **Knowledge Base:** Understanding Offensive Security.
 
 ### ✅ 2. Defensive Security Intro
 * **Status:** Completed on 30/01/2026.
@@ -47,7 +47,7 @@
    - **Device Identification:**
       - **IPv4:** 32-bit addressing (decimal notation).
       - **IPv6:** 128-bit addressing (hexadecimal notation).
-      - **MAC Address:** Physical hardware identification (Layer 2).
+      - **MAC Address:** Physical hardware identification.
 ---
 ## Linux Fundamentals
 ---
