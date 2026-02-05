@@ -48,6 +48,38 @@
       - **IPv4:** 32-bit addressing (decimal notation).
       - **IPv6:** 128-bit addressing (hexadecimal notation).
       - **MAC Address:** Physical hardware identification.
+
+### ✅ 2. Intro to LAN
+* **Status:** Completed on 05/02/2026.
+* **Objective:** Learn about some of the technologies and designs that power private networks
+* **Laboratory Execution:** N\A.
+* **Knowledge Base:**
+   - **Lan Topologies:**
+      - **Star Topology:** Reliable and scalable by using centralized robust hardware (Switch/Hub).
+         - Expensive due to the high volume of cabling and specialized equipment required.
+      - **Bus Topology:** Cost-efficient and simple, using a single backbone cable.
+         - Prone to bottlenecks and difficult to troubleshoot if the main cable fails or many devices send data simultaneously.
+      - **Ring (Token) Topology:** Devices are connected in a loop and data passes through each device.
+         - Uses a "token" system to prevent collisions, making it less prone to bottlenecks, but a single device failure can break the network.
+   - **Networking Hardware:**
+      - **Switch:** Connects multiple devices within the same network. It uses MAC addresses to track device ports, reducing unnecessary traffic.
+      - **Router:** Connects different networks via Routing — the process of directing data packets between distinct networks.
+   - **Subnetting:**
+      - Using Subnet Masks to split networks into smaller, manageable segments.
+         - **Network Address:** Identifies the start and existence of the network.
+         - **Host Address:** The specific IP assigned to a device.
+         - **Default Gateway:** The entry/exit point for traffic leaving the local network (usually .1 or .254).
+   - **Address Resolution Protocol (ARP):**
+      - Responsible for mapping IP addresses to MAC addresses.
+      - **ARP Cache:** A local table that stores IP-to-MAC mappings.
+      - **ARP Request:** A broadcast message asking "Who has this IP?".
+      - **ARP Reply:** The response containing the requested MAC address.
+   - **Dynamic Host Configuration Protocol (DHCP):**
+      - Automatically assigns IP addresses to new devices.
+      - **DHCP Discover:** Client broadcasts to find a server.
+      - **DHCP Offer:** Server offers an available IP.
+      - **DHCP Request:** Client asks to lease that specific IP.
+      - **DHCP ACK:** Server confirms and completes the process.
 ---
 ## Linux Fundamentals
 ---
