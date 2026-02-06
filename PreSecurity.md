@@ -1,3 +1,7 @@
+**Note:** Official Badges are hyperlinked to the images on the right side of each module header (where applicable).
+
+<br>
+
 ## Home Lab Setup
 <details> <summary><b>Click to see summary</b></summary>
 <br>
