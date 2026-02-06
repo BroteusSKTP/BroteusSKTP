@@ -7,7 +7,7 @@ Welcome to my GitHub! I am currently a 2nd-year **Computer Engineering** student
 ---
 ## 🎓 Education & Certifications
   - BSc in Computer Science and Engineering | University of Évora (In Progress)
-  - Cybersecurity Specialization | 300-hour Intensive Technical Course (2024)
+  - Cybersecurity Specialization | 300-hour Technical Course (2024)
     
 ## 🛡️ Cybersecurity & Tech Focus
 - **Skills:** Network Security, Vulnerability Management, Traffic Analysis and System Administration.
