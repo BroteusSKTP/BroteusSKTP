@@ -136,21 +136,50 @@
       - **Application:** The layer where the user interacts with the network. Protocols like HTTP, FTP, and DNS operate here.
 </details>
 
-### 🟡 4. Packets & Frames
+### ✅ 4. Packets & Frames
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** Completed on 06/02/2026
 * **Objective:** Understand how data is divided into smaller pieces and transmitted across a network to another device.
-* **Laboratory Execution:**
+* **Laboratory Execution:** `nc` (Netcat) for testing port connectivity and basic data transfer.
 * **Knowledge Base:**
+  - **Data Encapsulation & Units:**
+    
+      - **Frames (Layer 2):** Data encapsulated with MAC Addresses (Source/Destination). Operates within the local network.
+      - **Packets (Layer 3):** Data encapsulated with IP Addresses. Essential for routing data between different networks.
+   - **The TCP/IP Model:**
+      - **Layers:** Network Interface, Internet, Transport, and Application.
+   - **TCP Header & Mechanics:**
+      - **Ports:**
+        
+         - **Source Port:** Randomly assigned from 0 to 65535 if not already in use (Note: Ports 0-1024 are well-known/common ports, so ephemeral source ports are typically chosen from 1025 to 65535).
+         - **Destination Port:** Well-known ports (e.g., 80 HTTP, 443 HTTPS, 22 SSH).
+      - **Sequence & Acknowledgement:**
+         - **ISN (Initial Sequence Number):** A random number to start the conversation.
+         - **Sequence Number:** Tracks the number of bytes sent (ensures data order).
+         - **Acknowledgement Number:** The next byte the receiver expects to get (Current SEQ + Bytes Received + 1 during handshake).
+      - **Checksum:** Integrity check. If the local calculation doesn't match the header, the packet is discarded (detected corruption).
+      - **Flags (Control Bits):**
+         - 1-bit "switches" that define the packet's purpose.
+         - **SYN:** Synchronize (Start connection).
+         - **ACK:** Acknowledge (Confirm reception).
+         - **FIN:** Finish (Graceful shutdown).
+         - **RST:** Reset (Abrupt termination).
+      - **The 3-Way Handshake (Establishing Trust):**
+         - **SYN:** Client sends an "empty" envelope with a random ISN.
+         - **SYN/ACK:** Server acknowledges the Client's ISN and sends its own.
+         - **ACK:** Client confirms the Server's ISN and is now open for data.
+   - **UDP (User Datagram Protocol):**
+      - **Headers:** Much lighter than TCP (Source/Dest Ports/Addresses, Length, Checksum).
+      - **TTL (Time To Live):** Contains the expiry timer for the packet. (Note: Technically a field in the IP Header to prevent infinite loops).
 </details>
 
 ### 🟡 5. Extending Your Network
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn about some of the technologies used to extend networks out onto the Internet and the motivations for this.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -163,7 +192,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn how DNS works and how it helps access internet services.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -173,7 +202,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn about how to request content from a web server using the HTTP protocol.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -183,7 +212,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn how websites are created.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -193,7 +222,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn how all the individual components of the web work together.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -220,7 +249,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn how to log in to a Linux machine using SSH, how to advance commands, file system interaction.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -230,7 +259,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Hands-on with some common utilities.
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -243,7 +272,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn about the Windows desktop, the NTFS file system, UAC, the Control Panel...
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -253,7 +282,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry...
 * **Laboratory Execution:**
 * **Knowledge Base:**
@@ -263,7 +292,7 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Not completed.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker...
 * **Laboratory Execution:**
 * **Knowledge Base:**
