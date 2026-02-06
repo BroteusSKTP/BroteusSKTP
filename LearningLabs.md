@@ -1,4 +1,4 @@
-# My Cyber Learning Journey
+# My Learning Journey
 
 This is a documented space designed to share my learning experiences and evolution in Cybersecurity.
 
