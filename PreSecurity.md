@@ -92,6 +92,7 @@
       - **Router:** Connects different networks via Routing — the process of directing data packets between distinct networks.
    - **Subnetting:**
       - Using Subnet Masks to split networks into smaller, manageable segments.
+        
          - **Network Address:** Identifies the start and existence of the network.
          - **Host Address:** The specific IP assigned to a device.
          - **Default Gateway:** The entry/exit point for traffic leaving the local network (usually .1 or .254).
@@ -175,14 +176,49 @@
       - **TTL (Time To Live):** Contains the expiry timer for the packet. (Note: Technically a field in the IP Header to prevent infinite loops).
 </details>
 
-### 🟡 5. Extending Your Network
+### ✅ 5. Extending Your Network
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 06/02/2026
 * **Objective:** Learn about some of the technologies used to extend networks out onto the Internet and the motivations for this.
 * **Laboratory Execution:**
 * **Knowledge Base:**
+   - **Introduction to Port Forwarding:**
+     
+      - Allows external devices on the Internet to access services (Web servers, SSH, etc.) hosted on a private network.
+      - Maps a public IP address and port to a specific internal IP and port on the router.
+   - **Introduction to Firewalls:**
+      - A security device that monitors and filters incoming/outgoing traffic based on established rules.
+      - Operates mainly at Layers 3 & 4.
+      - Can come in forms of hardware and software (e.g. Snort).
+      - **Two Primary Categories:**
+         - **Stateful:**
+           
+            - Analyzes the behavior of a device based on the entire connection rather than inspecting individual packets.
+            - Consumes more resources than stateless firewalls due to its dynamic nature.
+            - If a connection from a host is determined to be bad, the firewall can block the entire device from the network.
+         - **Stateless:** Filters packets individually based on static rules (IP, Port). Faster and effective against DDoS, but less secure.
+      - **Introduction to VPN (Virtual Private Network):**
+         - Creates a secure, encrypted "tunnel" over a public network (Internet) to connect remote devices or entire offices.
+         - Grants privacy through encryption, anonymity (hiding public IP), and secure access to corporate resources.
+           
+         - **Technologies:**
+            - **PPP (Point-to-Point Protocol):** Used for authentication and data framing.
+            - **PPTP (Point-to-Point Tunneling Protocol):** An older protocol using PPP to tunnel data. Fast but now considered insecure.
+            - **IPSec (Internet Protocol Security):** A robust suite of protocols that authenticates and encrypts every IP packet in a session.
+      - **LAN Network Devices:**
+        
+         - **Router (Layer 3):**
+           
+            - Routes packets between different networks.
+            - Uses routing tables to determine the best path (based on hops, speed, or reliability).
+         - **Switch:**
+           - **Layer 2 Switch:** Connects devices within the same network using MAC Addresses to forward frames.
+           - **Layer 3 Switch:** Combines switch speed with routing capabilities. It can forward both frames and packets (IP-aware).
+         - **VLAN (Virtual Local Area Network):**
+            - Virtually splits a single physical switch into multiple isolated networks.
+            - Prevents unauthorized communication between departments (e.g., Guest VLAN cannot talk to Management VLAN) and reduces broadcast traffic.
 </details>
 
 ---
