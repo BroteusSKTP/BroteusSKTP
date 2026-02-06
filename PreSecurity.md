@@ -271,6 +271,6 @@
 
 ---
 
-[⬅️ **Back to Learning Journey**](LearningLabs.md)
+[⬅️ **Back to My Learning Journey**](LearningLabs.md)
 
 *Updated by: Tiago Palaio (BroteusSK).
