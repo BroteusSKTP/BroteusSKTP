@@ -228,14 +228,40 @@
 ---
 ## How the Web Works
 ---
-### 🟡 1. DNS in Detail
+### ✅ 1. DNS in Detail
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 07/02/2026
 * **Objective:** Learn how DNS works and how it helps access internet services.
-* **Laboratory Execution:**
+* **Laboratory Execution:** Utilized `nslookup` commands to query remote authoritative servers.
 * **Knowledge Base:**
+   - **What is DNS (Domain Name System):**
+     
+      - "Translates" domain names into IP Addresses.
+   - **Domain Hierarchy:**
+      - **TLD (Top Level Domain):**
+         - The most right-hand part (e.g., `.com`, `.pt`).
+         - **gTLD:** Generic (e.g., `.org`, `.net`).
+         - **ccTLD:** Country Code (e.g., `.pt`, `.uk`).
+      - **Second Level Domain:** The main domain name before TLD, (max 63 chars).
+      - **Subdomain:** Additional levels before the SLD (total domain length max 253 chars).
+   - **Record Types:**
+      - **A/AAAA:** Maps domain names to IPv4 / IPv6 addresses.
+      - **CNAME (Canonical Name):** Maps domain names to others (e.g., `shop.site.com` -> `host.site.com`).
+      - **MX (Mail Exchange):**
+         - Points to mail servers
+         - Uses Priority Flags (lower number = higher priority) for redundancy (in case a top priority server is offline).
+      - **TXT:**
+         - Stores text-based data.
+         - Critical for Email Security and Domain Verification.
+   - **DNS Request:**
+      - **Local Cache Check:** OS checks local storage.
+      - **Recursive DNS:** ISP/Local Resolver checks its own cache.
+      - **Root Servers:** Directs the query to the correct TLD server.
+      - **TLD Servers:** Directs the query to the Authoritative DNS server.
+      - **Authoritative Server:** Provides the final record.
+      - **Caching & TTL:** The result is cached by the Recursive DNS and the Client for a duration defined by the TTL (Time To Live) in seconds.
 </details>
 
 ### 🟡 2. HTTP in Detail
