@@ -264,14 +264,55 @@
       - **Caching & TTL:** The result is cached by the Recursive DNS and the Client for a duration defined by the TTL (Time To Live) in seconds.
 </details>
 
-### 🟡 2. HTTP in Detail
+### ✅ 2. HTTP in Detail [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/af2391fb-4f55-4bdf-a45a-f6528e8b2997" align="right" />](https://tryhackme.com/BroteusSK/badges/web-fund?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
+
 <details> <summary><b>Click to see summary</b></summary>
 <br>
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 08/02/2026
 * **Objective:** Learn about how to request content from a web server using the HTTP protocol.
-* **Laboratory Execution:**
+* **Laboratory Execution:** Hands-on with `GET`, `POST`, `PUT`, and `DELETE` requests using a TryHackMe web emulator.
 * **Knowledge Base:**
+   - **HyperText Transfer Protocol (Secure):**
+     
+      - Set of rules used to communicate with web servers for the transmitting of website data (E.g. HTML, videos....).
+      - In the Secure version, the data is encrypted (`Port 443`).
+   - **URL (Uniform Resource Locator):**
+      - An instruction on how to access a resource on the internet.
+      - `http://user:password@tryhackme.com:80/view-room?id=1#task3`
+        
+         - **Scheme/Port:** Protocol (`http`) and entry point (`80`).
+         - **User:** User credentials if applicable (`user:password`).
+         - **Host/Domain:** Domain name or IP address (`tryhackme.com`).
+         - **Path:** File name or location (`view-room`).
+         - **Query String:** Parameters sent to the server (`?id=1`).
+         - **Fragment:** Internal page reference (`#task3`).
+   - **Methods:**
+      - **GET:** Retrieve data (visible in URL).
+      - **POST:** Submit data (e.g., login forms).
+      - **PUT:** Update existing records.
+      - **DELETE:** Remove data.
+   - **Headers:**
+      - **Common Request Headers:**
+        
+         - **Host:** Targeted domain.
+         - **User-Agent:** Client browser/OS info.
+         - **Content-Length:** Tells the web server how much data to expect in the web request.
+         - **Accept-Encoding:** Compression methods that the browser supports.
+         - **Cookie:** Sent to server to maintain session.
+      - **Common Response Headers:**
+         - **Set-Cookie:** Server's instruction to store a session token.
+         - **Cache-Control:** Instruction on how/if to store content locally.
+         - **Content-type:** Defines data format (HTML, JSON, Image).
+         - **Content-Encoding:** Method used to compress the data.
+   - **Status Codes:**
+      - **2XX - Success:** Request was successful (E.g., `200 OK`, `201 Created`).
+      - **3XX - Redirection:** Redirect to a different webpage or website (E.g., `301 Moved Permanently`, `302 Found`).
+      - **4XX - Client Errors:** There was an error with the request (E.g., `400 Bad Request`, `401 Not Authorized`, `403 Forbidden`, `404 Page not Found`, `405 Method not Allowed`).
+      - **5XX - Server Errors:** Errors happening on server side (E.g., `500 Internal Service Error`, `503 Service Unavailable`).
+   - **Cookies:**
+      - HTTP doesn't "remember" you. Cookies act as a "ID Badge" (Token).
+      - Server sends `Set-Cookie` -> Browser stores it -> Browser sends `Cookie` back on every future request.
 </details>
 
 ### 🟡 3. How Websites Work
