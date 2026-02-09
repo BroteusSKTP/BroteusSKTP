@@ -18,9 +18,9 @@
    
 * **Status:** Completed on 29/01/2026.
 * **Objective:** Hack my first website (legally in a safe environment) and experience an ethical hacker's job.
-* **Laboratory Execution:**
+* **Laboratory Execution:** <br>&nbsp;
      - Established connectivity between Kali Linux (VMware) and the lab network via OpenVPN.
-     - Performed directory enumeration using **DirBuster**.
+     - Performed directory enumeration using **DirBuster**. <br>&nbsp;
 * **Knowledge Base:** Understanding Offensive Security.
 </details>
 
@@ -30,12 +30,12 @@
    
 * **Status:** Completed on 30/01/2026.
 * **Objective:** Introducing defensive security, what it involves and looks like within the real-world, as well as the technologies involved.
-* **Laboratory Execution:**
-     - Investigation of possible enumeration attack and application of security measures:
+* **Laboratory Execution:** <br>&nbsp;
+     - Investigation of possible enumeration attack and application of security measures: <br>&nbsp;
          - IP Address Blocking (Shunning).
          - Rate Limiting implementation for sensitive Administrator endpoints.
-         - SIEM Rule configuration against future enumeration attacks.
-* **Knowledge Base:**
+         - SIEM Rule configuration against future enumeration attacks. <br>&nbsp;
+* **Knowledge Base:** <br>&nbsp;
      - Introduction to Blue Teaming, **Defensive Security** roles and operations.
      - Operational structure of a **SOC** (Security Operations Center) and the role of **SIEM** technology.
 </details>
@@ -47,8 +47,8 @@
 * **Status:** Completed on 30/01/2026.
 * **Objective:** Learn about the different careers in cyber security.
 * **Laboratory Execution:** N/A.
-* **Knowledge Base:**
-     - Understanding the responsibilities and skillsets for:
+* **Knowledge Base:** <br>&nbsp;
+     - Understanding the responsibilities and skillsets for: <br>&nbsp;
         - **Security Analysis:** Focus on monitoring and incident response (Blue Team).
         - **Security Engineering:** Building and maintaining secure infrastructure.
         - **Penetration Testing:** Proactive vulnerability assessment (Red Team).
@@ -64,9 +64,9 @@
 * **Status:** Completed on 05/02/2026.
 * **Objective:** Begin learning the fundamentals of computer networking.
 * **Laboratory Execution:** Used the ping command to verify reachability between hosts.
-* **Knowledge Base:**
+* **Knowledge Base:** <br>&nbsp;
    - **Network & Internet:** Core definitions and the hierarchy of the web.
-   - **Device Identification:**
+   - **Device Identification:** <br>&nbsp;
       - **IPv4:** 32-bit addressing (decimal notation).
       - **IPv6:** 128-bit addressing (hexadecimal notation).
       - **MAC Address:** Physical hardware identification.
