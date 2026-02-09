@@ -123,17 +123,17 @@
       - Critical model that provides a framework which dictates how all networked devices send, receive and interpret data.
       - **Physical:** Handles the physical hardware and electrical signals (e.g., Ethernet cables, pins, voltages).
       - **Data Link:** Focuses on physical addressing (MAC Address) and framing data for transmission.
-      - **Network:**
+      - **Network:** <br>&nbsp;
          - Handles routing and IP addressing. This is where OSPF (Open Shortest Path First) and RIP (Routing Information Protocol) operate.
-         - Data is fragmented and re-assembled here; the Router is a primary Layer-3 device.
-      - **Transport:**
+         - Data is fragmented and re-assembled here; the Router is a primary Layer-3 device. <br>&nbsp;
+      - **Transport:** <br>&nbsp;
          - Responsible for end-to-end communication.
          - **TCP (Transmission Control Protocol):** Reliable and connection-oriented. Guarantees data accuracy (used in Email, Web browsing).
-         - **UDP (User Datagram Protocol):** Connectionless and fast. Prioritizes speed over reliability (used in Streaming, VoIP).
-      - **Session:**
+         - **UDP (User Datagram Protocol):** Connectionless and fast. Prioritizes speed over reliability (used in Streaming, VoIP). <br>&nbsp;
+      - **Session:** <br>&nbsp;
          - Establishes, manages, and terminates connections (sessions) between devices.
          - Handles authentication and session timeouts.
-         - Provides checkpoints to resume data transfers if a failure occurs.
+         - Provides checkpoints to resume data transfers if a failure occurs. <br>&nbsp;
       - **Presentation:** Acts as a translator. Handles data encryption, compression, and formatting (e.g., SSL/TLS, JPEG, GIF) so the application can understand it.
       - **Application:** The layer where the user interacts with the network. Protocols like HTTP, FTP, and DNS operate here.
 </details>
@@ -193,23 +193,20 @@
       - A security device that monitors and filters incoming/outgoing traffic based on established rules.
       - Operates mainly at Layers 3 & 4.
       - Can come in forms of hardware and software (e.g. Snort).
-      - **Two Primary Categories:**
-         - **Stateful:**
-           
+      - **Two Primary Categories:** <br>&nbsp;
+         - **Stateful:** <br>&nbsp;
             - Analyzes the behavior of a device based on the entire connection rather than inspecting individual packets.
             - Consumes more resources than stateless firewalls due to its dynamic nature.
-            - If a connection from a host is determined to be bad, the firewall can block the entire device from the network.
-         - **Stateless:** Filters packets individually based on static rules (IP, Port). Faster and effective against DDoS, but less secure.
-      - **Introduction to VPN (Virtual Private Network):**
+            - If a connection from a host is determined to be bad, the firewall can block the entire device from the network. <br>&nbsp;
+         - **Stateless:** Filters packets individually based on static rules (IP, Port). Faster and effective against DDoS, but less secure. <br>&nbsp;
+      - **Introduction to VPN (Virtual Private Network):** <br>&nbsp;
          - Creates a secure, encrypted "tunnel" over a public network (Internet) to connect remote devices or entire offices.
          - Grants privacy through encryption, anonymity (hiding public IP), and secure access to corporate resources.
-           
-         - **Technologies:**
+         - **Technologies:** <br>&nbsp;
             - **PPP (Point-to-Point Protocol):** Used for authentication and data framing.
             - **PPTP (Point-to-Point Tunneling Protocol):** An older protocol using PPP to tunnel data. Fast but now considered insecure.
-            - **IPSec (Internet Protocol Security):** A robust suite of protocols that authenticates and encrypts every IP packet in a session.
+            - **IPSec (Internet Protocol Security):** A robust suite of protocols that authenticates and encrypts every IP packet in a session. <br>&nbsp;
       - **LAN Network Devices:**
-        
          - **Router (Layer 3):**
            
             - Routes packets between different networks.
@@ -237,21 +234,21 @@
      
       - "Translates" domain names into IP Addresses.
    - **Domain Hierarchy:**
-      - **TLD (Top Level Domain):**
+      - **TLD (Top Level Domain):** <br>&nbsp;
          - The most right-hand part (e.g., `.com`, `.pt`).
          - **gTLD:** Generic (e.g., `.org`, `.net`).
-         - **ccTLD:** Country Code (e.g., `.pt`, `.uk`).
+         - **ccTLD:** Country Code (e.g., `.pt`, `.uk`). <br>&nbsp;
       - **Second Level Domain:** The main domain name before TLD, (max 63 chars).
       - **Subdomain:** Additional levels before the SLD (total domain length max 253 chars).
    - **Record Types:**
       - **A/AAAA:** Maps domain names to IPv4 / IPv6 addresses.
       - **CNAME (Canonical Name):** Maps domain names to others (e.g., `shop.site.com` -> `host.site.com`).
-      - **MX (Mail Exchange):**
+      - **MX (Mail Exchange):** <br>&nbsp;
          - Points to mail servers
-         - Uses Priority Flags (lower number = higher priority) for redundancy (in case a top priority server is offline).
-      - **TXT:**
+         - Uses Priority Flags (lower number = higher priority) for redundancy (in case a top priority server is offline). <br>&nbsp;
+      - **TXT:** <br>&nbsp;
          - Stores text-based data.
-         - Critical for Email Security and Domain Verification.
+         - Critical for Email Security and Domain Verification. <br>&nbsp;
    - **DNS Request:**
       - **Local Cache Check:** OS checks local storage.
       - **Recursive DNS:** ISP/Local Resolver checks its own cache.
@@ -276,8 +273,7 @@
       - In the Secure version, the data is encrypted (`Port 443`).
    - **URL (Uniform Resource Locator):**
       - An instruction on how to access a resource on the internet.
-      - `http://user:password@tryhackme.com:80/view-room?id=1#task3`
-        
+      - `http://user:password@tryhackme.com:80/view-room?id=1#task3` <br>&nbsp;
          - **Scheme/Port:** Protocol (`http`) and entry point (`80`).
          - **User:** User credentials if applicable (`user:password`).
          - **Host/Domain:** Domain name or IP address (`tryhackme.com`).
