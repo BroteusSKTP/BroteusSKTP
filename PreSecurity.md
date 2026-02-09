@@ -1,10 +1,7 @@
-**Note:** Official Badges are hyperlinked to the images on the right side of each module header (where applicable).
-
-<br>
+**Note:** Official Badges are hyperlinked to the images on the right side of each module header (where applicable). <br>&nbsp;
 
 ## Home Lab Setup
-<details> <summary><b>Click to see summary</b></summary>
-<br>
+<details> <summary><b>Click to see summary</b></summary> <br>
    
 * **Tryhackme.com**
 * **Vmware Workstation:**
@@ -315,14 +312,63 @@
       - Server sends `Set-Cookie` -> Browser stores it -> Browser sends `Cookie` back on every future request.
 </details>
 
-### 🟡 3. How Websites Work
+### ✅ 3. How Websites Work
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 09/02/2026
 * **Objective:** Learn how websites are created.
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** <br>&zwnj;
+   - HTML basic coding with hyperlinks on a TryHackMe emulator site.
+   - Javascript basic coding with changing elements and adding a button on a TryHackMe emulator site.
+   - Inspection of source code for credentials on a TryHackMe emulator site.
+   - Basic HTML Injection of a malicious link on a TryHackMe emulator site.
+     
+<table align="center">
+  <tr>
+    <td>
+      <img width="413" alt="image" src="https://github.com/user-attachments/assets/c5fb40e0-5923-4beb-bc64-92ef0c0b7482">
+    </td>
+    <td>
+      <img width="404" alt="image" src="https://github.com/user-attachments/assets/c408a80f-97c3-4d65-b859-07a30acbda24">
+    </td>
+  </tr>
+</table>      <br>&zwnj;
+
+* **Knowledge Base:**      <br>&zwnj;
+   - **Front End:** How a browser renders a website.
+   - **Back End:** How a web server processes a request and returns a response.
+   - **HTML:** <br>&nbsp;
+     - Language to build websites and define their structure.
+     - Elements/tags are the building blocks and tells browser how to display content. <br>&nbsp;      
+       <img width="325" height="193" alt="image" src="https://github.com/user-attachments/assets/6bac1802-e93a-4ce5-aeec-8c463832af4a" /> <br>&zwnj;
+     - **`<!DOCTYPE html>`:** Defines the page as a HTML5 document and helps browsers to interpret the page.
+     - **`<html>`:** Root element of HTML page.
+     - **`<head>`:** Contains information about the page (e.g., page title).
+     - **`<body>`:** Document's body and the only thing displayed in the browser.
+     - **`<h1>`:** Defines a large heading.
+     - **`<p>`:** Defines a paragraph. <br>&zwnj;
+     - **Other common attributes:** <br>&zwnj;
+        - **Class Attribute:** Can be used to style an element (e.g., `<p class="bold-text">`).
+        - **`src` (Source):** Specifies the path to an image or file (e.g., `<img src="img/cat.jpg">`).
+        - **Id Attribute:** Identifies an element (e.g., `<p id="example">`).      <br>&zwnj;
+   - **JavaScript:**      <br>&zwnj;
+      - Allows webpages to be interactive. Can be added via `<script>` tags or externally using `<script src="..."></script>`.
+      - **Key Examples:** <br>&zwnj;
+         - Selects an element by its ID and modifies its content:
+         ```javascript
+         document.getElementById("demo").innerHTML = "example"
+         ```
+          - This command creates a button that, when clicked, triggers JavaScript to find the element with `id="demo"` and change its text to "Button Clicked":
+         ```html
+         <button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button>
+         ```   
+   - **Sensitive Data Exposure:**      <br>&zwnj;
+      - Occurs when sensitive information is left in plain text in the front-end code (e.g., HTML comments).
+      - Attackers can use this to find other ways to get in or use credentials to login.
+      - When assessing a web page for security measures, page source code should be checked to see if sensitive data was left on comments, javacript or HTML code. <br>&nbsp;
+   - **HTML Injection:** A vulnerability where unfiltered user input is rendered as HTML, allowing an attacker to modify the page's appearance or redirect users via malicious links.
+        
 </details>
 
 ### 🟡 4. Putting it all together
