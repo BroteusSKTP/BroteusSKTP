@@ -438,14 +438,59 @@
      - **Shell Operators:** `&`, `&&`, `>`, `>>`.
 </details>
 
-### 🟡 2. Linux Fundamentals Part 2
+### ✅ 2. Linux Fundamentals Part 2
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 10/02/2026
 * **Objective:** Learn how to log in to a Linux machine using SSH, how to advance commands, file system interaction.
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** <br>&zwnj;
+   - Login to a TryHackMe machine through kali linux using SSH (`ssh username@IP`).
+   - **Flags and Switches:** Application of ls `-a`, `--help` and `man`.
+   - **Filesystem Interaction:** Application of `touch`, `cp`, `mv`, `mkdir`, `rm` and `file`.
+   - **Permissions:** Application of `ls -lh` and `su -l`.
+   - **Common Directories:** Explore `/etc`, `/var`, `/root` and `/tmp`. <br>&zwnj;
+* **Knowledge Base:** <br>&zwnj;
+   - **SSH (Secure Shell):** <br>&zwnj;
+      - Protocol between devices in an encrypted form.
+      - Allows connection and interaction with a remote machine. <br>&zwnj;
+   - **`ls`:** <br>&zwnj;
+      - **`-a`:** Shows hidden files.
+      - **`--help`:** Shows list of all possible options and brief description.
+      - **`man`:** Shows manual pages of information for both system commands and applications.
+      - **`-lh`:** Long list format with human-readable file sizes. <br>&zwnj;
+   - **`touch`:** Create file.
+   - **`mkdir`:** Create folder.
+   - **`cp`:** Copy file or folder.
+   - **`mv`:** Move a file or folder.
+   - **`rm`:** Remove a file or folder.
+   - **`file`:** Determine the type of a file. <br>&zwnj;
+   - **Permissions:** <br>&zwnj; <br>&zwnj;
+     <img width="402" height="78" alt="image" src="https://github.com/user-attachments/assets/6b586ac1-c431-4222-951b-b4f8009aaba1" /> <br>&zwnj;  
+      - **r:** `Read` (Value = 4).
+      - **w:** `Write` (Value = 2).
+      - **x:** `Execute` (Value = 1). <br>&zwnj;
+      - **First 3 Bits:** `Owner` (The user who owns the file).
+      - **Next 3 Bits:** `Group` (Users in the file's group).
+      - **Last 3 Bits:** `Others` (Everyone else on the system).
+      - **Users & Groups:** User can own a file and, if permissions have been set, groups of users can have the same or different set of permissions.  <br>&zwnj;
+      - **`su`:** Switches user by inputting the respective password. <br>&zwnj;
+         - **`-l`:** Switch that allows to inherit more properties of the new user (e.g., environment variables).  <br>&zwnj;
+      - **`chmod`:** Modifies file or directory permissions. <br>&zwnj;
+         - We need to calculate the numeric value and add them together for each group. For example:
+           ``` bash
+           chmod 755 example.txt
+           ```
+            - Owner - Full Access (4 + 2 + 1).
+            - Group - Read + Execute (4 + 1).
+            - Others - Read + Execute (4 + 1). <br>&zwnj;
+   - **Common Directories:** <br>&zwnj;
+      - **`/etc`:** Commonplace location to store system configuration files.
+      - **`/var`:** Stores data that is frequently accessed or written by services and applications.
+      - **`/root`:** Home for the "root" system user.
+      - **`/tmp`:**
+         - Stores temporary data that gets cleared out when the system resets.
+         - Important for pentesting because any user can write in this folder by default.
 </details>
 
 ### 🟡 3. Linux Fundamentals Part 3
