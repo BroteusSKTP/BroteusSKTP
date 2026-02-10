@@ -220,7 +220,8 @@
 </details>
 
 ---
-## How the Web Works
+## How the Web Works <a href="https://tryhackme.com/BroteusSK/badges/world-wide-web?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/33616203-6b9a-4d14-bf13-77a507088849" width="42.5" height="50" align="right"></sup></a>
+
 ---
 ### ✅ 1. DNS in Detail
 <details> <summary><b>Click to see summary</b></summary>
@@ -367,14 +368,57 @@
         
 </details>
 
-### 🟡 4. Putting it all together
+### ✅ 4. Putting it all together
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 10/02/2016
 * **Objective:** Learn how all the individual components of the web work together.
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** Quiz about about order of events on an interaction with a webserver: <br>&zwnj;
+   - Request tryhackme.com in your browser.
+   - Check local cache for IP Address.
+   - Check your recursive DNS Server for Address.
+   - Query root server to find authoritative DNS Server.
+   - Authoritative DNS server advises the IP address for website.
+   - Request passes through a WAF (Web Application Firewall).
+   - Request passes through a Load Balancer.
+   - Connect to webserver on port 80 or 443.
+   - Web server receives the GET request.
+   - Web application talks to database.
+   - Your browser renders the HTML into a viewable website. <br>&zwnj;
+* **Knowledge Base:** <br>&zwnj;
+   - **Load Balancers:** <br>&zwnj;
+      - Ensures the high traffic websites can handle the load.
+      - Failsafe in case a web server is not available.
+      - Receives request first and then forwards to one of multiple servers decided by an algorithm like: <br>&zwnj;
+         - **Round-Robin:** Sends to each server in turn.
+         - **Weighted:** Sends to the least busy server. <br>&zwnj;
+      - **Health Check:** Periodic checks with each server to ensure they are running correctly. <br>&zwnj;
+   - **CDN (Content Delivery Networks):** <br>&zwnj;
+      - Hosts static files like JavaScript, images and videos.
+      - Thousand servers all around the world.
+      - Redirects the request to the nearest physical located server. <br>&zwnj;
+   - **Databases:** <br>&zwnj;
+      - It's how websites store information for their users.
+      - **Some Examples:** `MySQL`, `MSSQL`, `MongoDB` and `Postgres`. <br>&zwnj;
+   - **WAF (Web Application Firewall):** <br>&zwnj;
+      - Protects the web server by analysing the web requests for common attack techniques.
+      - Uses rate limiting to control excessive amount of web requests from an IP, within a specific period.
+      - If request is deemed a possible attack, it will be dropped and never sent to the webserver. <br>&zwnj;
+   - **Web Server:** <br>&zwnj;
+      - Is a software that listens to incoming connections and delivers web content through HTTP Protocol.
+      - **Examples:** `Apache`, `Nginx`, `IIS` and `NodeJS`.
+      - Delivers files from their root directory, defined by software settings. <br>&zwnj;
+   - **Virtual Hosts:** <br>&zwnj;
+      - Text-based configuration files.
+      - Used by web servers to host multiple websites from different domains.
+      - If matched with a hostname HTTP header's request, the right website is provided. If not, the provided website is the default.
+      - Can have different root directory locations on the same web server. <br>&zwnj;
+   - **Static vs Dynamic Content:** <br>&zwnj;
+      - Static Content never changes (e.g., `pictures`, `javascript` and `CSS`).
+      - Dynamic Content changes with different requests (e.g., a blog). <br>&zwnj;
+         - Those changes are done behind the scenes (Backend) with the use of programming and scripting languages.
+         - **Examples:** `PHP`, `Python`, `Ruby`, `NodeJS` and `Perl`.
 </details>
 
 ---
@@ -387,7 +431,7 @@
 * **Status:** Completed on 02/02/2026.
 * **Objective:** Learn to run some of the first essential linux commands on an interactive terminal.
 * **Laboratory Execution:** Practical application in ubuntu terminal.
-* **Knowledge Base:**
+* **Knowledge Base:** <br>&zwnj;
      - A bit of background on Linux.
      - **Basic Commands:** `cd`, `ls`, `cat`, `pwd`.
      - **Search for Files:** `find`, `grep`.
