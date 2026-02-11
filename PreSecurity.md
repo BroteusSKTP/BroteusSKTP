@@ -493,14 +493,83 @@
          - Important for pentesting because any user can write in this folder by default.
 </details>
 
-### 🟡 3. Linux Fundamentals Part 3
+### ✅ 3. Linux Fundamentals Part 3
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 11/02/2026
 * **Objective:** Hands-on with some common utilities.
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** <br>&zwnj;
+   - Edited and created files using `nano`
+   - Started a web server using `python3 -m http.server` and downloaded files with `wget`.
+   - Managed processes using `top`, `ps aux`, and `kill`.
+   - Inspected scheduled tasks in `crontab` and analyzed system logs in `/var/log`. <br>&zwnj;
+* **Knowledge Base:** <br>&zwnj;
+   - **Terminal Text Editors:** <br>&zwnj;
+      - **`nano`:** Beginner-friendly editor. Features include text search (`Ctrl+W`), line jumping, and position tracking.
+      - **`vim`:** Advanced editor with modal editing, syntax highlighting, and high portability across all Unix systems. <br>&zwnj;
+   - **General/Useful Utilities:** <br>&zwnj;
+      - **`wget`:** Downloads files via HTTP/HTTPS (e.g., `wget https://assets.tryhackme.com/additional/linux-fundamentals/part3/myfile.txt`).
+      - **`scp`:** Securely copies files/directories between hosts using SSH encryption. <br>&zwnj; <br>&zwnj;
+        <img width="499" height="47.5" alt="image" src="https://github.com/user-attachments/assets/646c2939-8b30-458a-b354-4f6c2ae16336" /> <br>&zwnj;
+      - **`http.server`:** Python module to quickly serve files from the current directory (Note: Does not provide directory indexing by default). <br>&zwnj; <br>&zwnj;
+           <img width="505" height="55" alt="image" src="https://github.com/user-attachments/assets/e15f53d8-96c6-4a4a-87ef-4d52431c7647" />
+           <br>&zwnj;
+           <img width="465" height="27.5" alt="image" src="https://github.com/user-attachments/assets/5aa14964-2e76-41d8-aeac-e7fe625df47f" /> <br>&zwnj;
+   - **Processes 101:** <br>&zwnj;
+      - **PID:** Unique Process ID assigned in order of startup.
+      - **Namespaces:** OS feature used to isolate resources (CPU, RAM, Network) so processes remain sandboxed.
+      - **systemd:** The first process (**PID 1**) that starts at boot. It is the "parent" of all system processes.
+      - **`ps`:** Provides a list of running processes of the user session. <br>&zwnj;
+         - **Additional Information:** <br>&zwnj;
+            - Status Code.
+            - Session that is running it.
+            - Usage time of the CPU.
+            - Name of the program or command executed.
+            - **`aux`:** Shows processes run by other users and the system. <br>&zwnj; <br>&zwnj;
+              <img width="606" height="144" alt="image" src="https://github.com/user-attachments/assets/fc195e76-b58e-4d38-89b1-598594b4a619" /> <br>&zwnj;
+      - **`top`:** Shows real time statistics about the processes.
+      - **`kill`:** Terminates processes. Flags: `SIGTERM` (clean exit), `SIGKILL` (forced exit), `SIGSTOP` (suspend).
+      - **`systemctl`:** Allows to interact with systemd process/daemon. <br>&zwnj; <br>&zwnj;
+        <img width="217.5" height="32.5" alt="image" src="https://github.com/user-attachments/assets/1e9bbbb0-d512-404e-8aa5-0f81a14d2f75" /> <br>&zwnj;
+         - **Options:** <br>&zwnj;
+            - **`Start`** Manually starts service.
+            - **`Stop`:** Manually stops service.
+            - **`Enable`:** Starts on boot.
+            - **`Disable`:** Doesn't start on boot.
+            - **`Status`:** Running status. <br>&zwnj;
+      - **Background & Foreground:** <br>&zwnj;
+         - **`Ctrl + Z`:** Pauses a foreground process and sends it to the background.
+         - **`&`:** Run command directly in the background.
+         - **`fg`:** Brings a background process back to the foreground. <br>&zwnj;
+   - **Automation:** <br>&zwnj;
+      - **`crontab -e`:** Edits the schedule file. Format: `MIN HOUR DOM MON DOW CMD`. <br>&zwnj;
+         - **Values:** <br>&zwnj;
+            - **MIN:** What minutes to execute at.
+            - **HOUR:** What hour to execute at.
+            - **DOM:** What day of the month to execute at.
+            - **MON:** What month of the year to execute at.
+            - **DOW:** What day of the week to execute at.
+            - **CMD:** Command to be executed.
+            <br>
+            <img width="410" height="24" alt="image" src="https://github.com/user-attachments/assets/f7bbfb5b-ec33-4995-8e5d-ef805e3f0406" /> <br>&zwnj;
+   - **Package Management:** <br>&zwnj;
+      - **APT:** Advanced Package Tool. Uses repositories and GPG keys to ensure software integrity and updates.
+      - **`add-apt-repository`:** Manages third-party software sources (PPAs).
+      - **GPG (Gnu Privacy Guard) Key:** Guarantees the integrity of our downloaded software by matching with system trusted keys and developer's.
+      - **Steps:** <br>&zwnj;
+         - Download the GPG key and use apt-key to trust it.
+           <img width="600" height="22.5" alt="image" src="https://github.com/user-attachments/assets/a4905fe5-fda5-4fa8-a90d-842634f2b758" />
+         - Add repository to apt source list.
+         - Use `nano` or text editor to add and save repository into the list.
+           <img width="540" height="52" alt="image" src="https://github.com/user-attachments/assets/ebd3dfc9-b65b-443b-89c5-1d39b7542713" />
+         - Use `apt update`.
+         - Use `apt install software`. <br>&zwnj;
+      - **Remove:** <br>&zwnj;
+         - Delete list/file created and use `apt remove software` command.
+         - Or `add-apt-repository --remove ppa:PPA_Name/ppa`. <br>&zwnj;
+   - **Logs:** Located in `/var/log`. Crucial for monitoring system health and investigating security incidents (e.g., unauthorized access in `auth.log`).
+
 </details>
 
 ---
