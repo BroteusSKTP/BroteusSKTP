@@ -25,4 +25,4 @@ I am currently developing my skills in Cybersecurity. You can follow my detailed
 ## What I'm working on
 - Documenting my Cybersecurity lab simulations.
 
-[LinkedIn](https://www.linkedin.com/in/tiagopalaio-cybersec) | [Email](mailto:Broteus@hotmail.com)
+[LinkedIn](https://www.linkedin.com/in/tiagopalaio-cybersec)
