@@ -575,14 +575,77 @@
 ---
 ## Windows Fundamentals
 ---
-### 🟡 1. Windows Fundamentals 1
+### ✅ 1. Windows Fundamentals 1
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 12/02/2026
 * **Objective:** Learn about the Windows desktop, the NTFS file system, UAC, the Control Panel...
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** <br>&nbsp;
+   - Connected to tryhackme windows machine through RDP `xfreerdp3`.
+   - Explored Local User and Management for information and user's permissions.
+   - Explored Control Panel, Settings and Task Manager. <br>&nbsp;
+* **Knowledge Base:** <br>&nbsp;
+   - **Windows Editions:** <br>&nbsp;
+      - Dominant operating system for in home use and corporate networks.
+      - Current version of the Windows operating system for servers is Windows Server 2025.
+      - Each new version of the Windows OS brought improved functionality and security. <br>&nbsp;
+   - **GUI (Graphical User Interface):** <br>&nbsp;
+      - Composed of `The Desktop`, `Start Menu`, `Search Box (Cortana)`, `Task View`, `Taskbar`, `Toolbars` and `Notification Area`.
+      - **The Desktop:** Location where shortcuts are displayed for easy access and customizable (note: remote access has restrictions on display settings).
+      - **The Start Menu:** <br>&nbsp;
+         - Provides access to all programs/apps, files, utility tools, etc... (Windows button).
+         - Divided by three sections: <br>&nbsp;
+            - **Left Section:** Shortcuts to actions regarding account/login session, Documents/Pictures and Settings.
+            - **Middle Section:** Shows all **Recently Added** on top and all the installed app/programs in alphabetical order below.
+            - **Right Section:** Default tiles which are icons of specific programs/apps or utilities. <br>&nbsp;
+      - **The Taskbar:** Some components are visible by default and any opened apps/programs, folders, files, etc... are shown here.
+      - **The Notification Area:** Tipically located at the bottom right corner, displays time, date, volume, internet among other icons. <br>&nbsp;
+   - **The File System:** <br>&nbsp;
+      - Modern versions of windows use NTFS (New Technology File System).
+      - Before there was FAT16/FAT32 (File Allocation Table) that are still used in USB devices or MicroSD cards and HPFS (High Performance File System). <br>&nbsp;
+      - **NTFS:** <br>&nbsp;
+         - Journaling file system that can automatically repair files on disk using information stored in logs.
+         - Supports files larger than 4GB.
+         - Set specific permissions on folders and files. <br>&nbsp;
+            - To see those permissions `Right Click the file or folder -> Security Tab -> Permissions for Users list` (Credit: Microsoft). <br>&nbsp; <br>&nbsp;
+           <img width="631" height="319" alt="image" src="https://github.com/user-attachments/assets/6876a2a1-6d55-455c-82ee-a4aeef1b61d4" /> <br>&nbsp;
+         - Folder and file compression.
+         - EFS (Encryption File System).
+         - **ADS (Attribute Data Stream):** <br>&nbsp;
+            - Allows files to contain more than one stream of data.
+            - Need 3rd party executables or PowerShell to see.
+            - Malware writers have used ADS to hide data. <br>&nbsp;
+   - **System32:** <br>&nbsp;
+      - **`C:\Windows`:** Folder that usually contains the Windows operating system but can be in a different drive or folder.
+      - **`%windir%`:** System environment variable for the Windows directory.
+      - Environment variables store information about the operating system environment such as operating system paths, the number of processors used and location of temporary folder.
+      - The system32 folder, that resides in Windows directory, contains important files that are critical for the operating system. <br>&nbsp;
+   - **User Accounts and Permissions:** <br>&nbsp;
+      - User accounts can be Administrator and Standard User.
+      - It determines what actions can perform on the Windows system.
+      - When an user account is created, a profile is created after first login and will fall under `C:\Users` folder.
+      - Have same folders such as `Desktop`, `Documents`, `Downloads`, `Music` and `Pictures`.
+      - To determine which users exist on the system: <br>&nbsp;
+         - `Start Menu -> type Other User -> Other Users System Settings`. <br>&nbsp;
+            - Add someone else to this PC (Administrator).
+            - Change account type and Remove. <br>&nbsp;
+         - **Local User and Group Management:** `Right Click Start Menu -> Run -> Type lusrmgr.msc`. <br>&nbsp;
+            - We can inspect groups and users details and descriptions under the respective folders.
+            - An user added to a group (by an Administrator) inherits the groups access permissions. <br>&nbsp;
+   - **UAC (User Account Control):** <br>&nbsp;
+      - Protects the local user by limiting system privileges.
+      - By default, doesn't apply for Administrator accounts, asking for confirmation when executing high privilege actions. 
+      - It reduces the likelihood of Malware compromising. <br>&nbsp;
+   - **Settings and Control Panel:** <br>&nbsp;
+      - Primary locations to make system changes.
+      - To see applications installed in control Panel: `Programs -> Programs and Features`.
+      - Both can be accessed from the Start Menu.
+      - Control Panel is where more complex settings and actions are made.
+      - Can use start menu search bar to locate the desired settings. <br>&nbsp;
+   - **Task Manager:** <br>&nbsp;
+      - Provides information regarding processes/applications running in the system.
+      - Can access by `Right Click Taskbar -> Task Manager` or `Ctrl + Shift + Esc`.
 </details>
 
 ### 🟡 2. Windows Fundamentals 2
