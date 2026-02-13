@@ -648,14 +648,108 @@
       - Can access by `Right Click Taskbar -> Task Manager` or `Ctrl + Shift + Esc`.
 </details>
 
-### 🟡 2. Windows Fundamentals 2
+### ✅ 2. Windows Fundamentals 2
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 13/02/2026
 * **Objective:** Learn about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry...
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** Explored some System Configuration tools and Advanced System settings on a Windows Server machine.
+* **Knowledge Base:** <br>&nbsp;
+   - **System Configuration:** Utility for advanced troubleshooting and diagnosing startup issues (Administrator). <br>&nbsp;
+      - **General:** Select devices and services to load upon boot (`Normal`, `Diagnostic` or `Selective`).
+      - **Boot:** Select boot options for the Operating System.
+      - **Services:** Lists all services (running or not) configured for the system.
+      - **Startup:** Redirects to Task Manager since it is not a startup management program on a Windows Server. <br>&nbsp;
+         - You can access via `Win + R -> type shell:startup`. <br>&nbsp;
+      - **Tools:** List of tools to configure operating system further. <br>&nbsp;
+   - **Advanced System Settings:** Additional configuration settings to control performance behavior and system recovery. <br>&nbsp;
+      - Can access by searching `View advanced system settings` in search bar.
+      - **`Advanced tab -> Settings under Performance`:** View and Modify the page file. <br>&nbsp;
+         - Windows uses a page file as an extra virtual space when the physical RAM becomes full.
+         - Gives information such as file size configured, the drive where the page is stored, the initial/maximum size and if Windows manages the size automatically. <br>&nbsp;
+      - **`Advanced tab -> Settings under Startup and Recovery`:** View and modify crash dump settings. <br>&nbsp;
+         - Crash dump files are created by the OS whenever it encounters a critical error.
+         - **`Write debugging information`** Type of crash dump configured for the system and how much information is saved. <br>&nbsp;
+            - Automatic memory dump.
+            - Kernel memory dump.
+            - Small memory dump (256 KB).
+            - Complete memory dump.
+            - None. <br>&nbsp;
+      - **System Configuration Tools:** <br>&nbsp;
+         - **UAC:** Settings can be changed through a slider. <br>&nbsp;
+            - **Always notify:** OS notifies administrator anytime an app tries to make changes and the desktop dims.
+            - **Notify for apps:** OS notifies only when apps try to make changes, but not when Administrator change Windows settings (default).
+            - **Notify without dimming:** Same as above but screen does not dim.
+            - **Never notify:** Notifications are turned off. <br>&nbsp;
+         - **Computer Management `compmgmt`:** <br>&nbsp;
+            - **System tools:** <br>&nbsp;
+               - **Task Scheduler:** Create and manage common tasks carried automatically at the specified time. <br>&nbsp;
+                  - Scheduled tasks can be viewed under Task Scheduler Library
+                  - To create a basic task, the option `Create Basic Task` is under Actions (right pane). <br>&nbsp;
+               - **Event Viewer:** View events that have occurred on the computer. <br>&nbsp;
+                  - Information can be used to diagnose problems and investigate actions executed on the system.
+                  - **Three Panes:** <br>&nbsp;
+                     - **Left Pane:** Provides a hierarchical tree listing of the event log providers.
+                     - **Middle Pane:** Display a general overview and summary of the events.
+                     - **Right Pane:** Actions pane (Credits: Microsoft). <br>&nbsp;<br>&nbsp;
+                       <img width="880" height="421" alt="image" src="https://github.com/user-attachments/assets/6b515d44-be8c-4e38-a5cc-836edb582412" /> <br>&nbsp;
+                     - Under Windows Logs: <br>&nbsp;<br>&nbsp;
+                       <img width="875" height="290" alt="image" src="https://github.com/user-attachments/assets/7359116f-6c6b-4b84-8300-1d1cbd050884" /> <br>&nbsp;
+               - **Shared Folder:** Complete list of shares and folders shared. <br>&nbsp;
+                  - Can see permissions by `Right Click -> Properties`.
+                  - **Sessions:** List of users who are currently connected to the shares.
+                  - **Open Files:** List of all the folders and/or files that the connected users access.
+                  - **Local Users and Groups:** Windows Fundamentals 1 room above.
+                  - **Performance:** View performance data either in real-time or from a log file. <br>&nbsp;
+                     - Useful for troubleshooting performance issues on a computer system. <br>&nbsp;
+               - **Device Manager:** View and configure the hardware.
+               - **Storage:** <br>&nbsp;
+                  - **Windows Server Backup:** No information at this room.
+                  - **Disk Management:** Enables you to perform advanced storage tasks such as: <br>&nbsp;
+                     - Set up a new drive.
+                     - Extend a partition.
+                     - Shrink a partition.
+                     - Assign or change a drive letter (ex. E:). <br>&nbsp;
+               - **Services and Applications:** <br>&nbsp;
+                  - **Services tab:** List of all the services and their statuses.
+                  - To see more information about a process `Right Click -> Properties`. <br>&nbsp;
+                     - **Startup Type:** <br>&nbsp;
+                        - **Automatic:** Starts every time the system boots.
+                        - **Manual:** starts when another process or user triggers the service.
+                        - **Disabled:** Doesn't start. <br>&nbsp;
+               - **WMI Control:** Configures and controls the Windows Management Instrumentation (WMI) service. <br>&nbsp;
+                  - Note: The WMIC tool is deprecated in Windows 10, version 21H1. Windows PowerShell supersedes this tool for WMI. <br>&nbsp;
+         - **System Information `msinfo32`:** Gathers information about your computer and displays a comprehensive view of your hardware, system components, and software environment. <br>&nbsp;
+            - **System Summary:** Display general technical specifications for the computer.
+            - **Hardware Resources:** No information at this room other than it is for advanced users.
+            - **Components:** Gives information about the hardware devices installed on the computer.
+            - **Software Environment:** Gives information about software baked into the OS and software you have installed. <br>&nbsp;
+               - **Environment Variables:** Information on Windows Fundamentals 1 room. Can be accessed through: <br>&nbsp;
+                  - `Control Panel > System and Security > System > Advanced system settings > Environment Variables`.
+                  - `Settings > System > About > system info > Advanced system settings > Environment Variables`. <br>&nbsp;
+            - There is a search bar to locate what is needed. <br>&nbsp;
+         - **Resource Monitor `resmon`:** <br>&nbsp;
+            - Displays per-process and aggregate CPU, memory, disk, and network usage information, in addition to providing details about which processes are using individual file handles and modules.
+            - **Four Sections:** `CPU`, `Disk`, `Network` and `Memory`.
+            - For advanced users who need to perform advanced troubleshooting on the computer system. <br>&nbsp;
+         - **Command Prompt `cmd`:** Terminal to interact with the OS. <br>&nbsp;
+            - **`hostname`:** Outputs the computer name.
+            - **`whoami`:** Outputs the name of the logged-in user.
+            - **`ipconfig`:** Shows the network address settings for the computer.
+            - **`/?` or `help`:** Shows the help manual (e.g., `ipconfig /?`).
+            - **`cls`:** To clear CMD screen.
+            - **`netstat`:** Displays protocol statistics and current TCP/IP network connections.
+            - **`net`:** Output shows the syntax for the root command showing a few of the sub-commands. <br>&nbsp;
+         - **Windows Registry:** <br>&nbsp;
+            - Central hierarchical database used to store information necessary to configure the system for one or more users, applications, and hardware devices.
+            - Contains information regarding: <br>&nbsp;
+               - Profiles for each user.
+               - Applications installed on the computer and the types of documents that each can create.
+               - Property sheet settings for folders and application icons.
+               - What hardware exists on the system.
+               - The ports that are being used. <br>&nbsp;
+            - **`regedit`:** One way to view/edit the registry.
 </details>
 
 ### 🟡 3. Windows Fundamentals 3
