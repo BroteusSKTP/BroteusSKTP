@@ -13,11 +13,11 @@
 ## Introduction to Cyber Security
 ---
 ### ✅ 1. Offensive Security Intro
-> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#Offensive-Security-Intro) path. 
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#1.-Offensive-Security-Intro) path. 
 > Please refer to that section for the full technical summary and lab execution details.
 
 ### ✅ 2. Defensive Security Intro
-> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md) path. 
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#2.-Defensive-Security-Intro) path. 
 > Please refer to that section for the full technical summary and lab execution details.
 
 ### ✅ 3. Offensive Security Intro
