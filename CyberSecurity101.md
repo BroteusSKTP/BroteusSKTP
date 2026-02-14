@@ -24,8 +24,23 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>   
    
-* **Status:** Completed on 29/01/2026.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn to efficiently search the Internet and use specialized search engines and technical docs.
 * **Laboratory Execution:**
 * **Knowledge Base:**
-</details
+</details>
+
+---
+## Linux Fundamentals
+---
+### ✅ 1. Linux Fundamentals Part 1
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#linuxfund1) path. 
+> Please refer to that section for the full technical summary and lab execution details.
+
+### ✅ 2. Linux Fundamentals Part 2
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#linuxfund2) path. 
+> Please refer to that section for the full technical summary and lab execution details.
+
+### ✅ 3. Linux Fundamentals Part 3
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#linuxfund3) path. 
+> Please refer to that section for the full technical summary and lab execution details.
