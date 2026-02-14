@@ -9,10 +9,10 @@ Welcome to my GitHub! I am currently a 2nd-year **Computer Engineering** student
   - BSc in Computer Science and Engineering | University of Évora (In Progress)
   - Cybersecurity Specialization | 300-hour Technical Course (2024)
     
-## Languages & Tools Utilized
-- **Security & Administration Tools:** <br>
+## Languages & Tools Utilized 
+- **Security & Administration Tools:** <br>&nbsp;
   - **Defensive:** Wireshark, pfSense, Windows Server (AD, GPO, DHCP, DNS), Nessus.
-  - **Offensive/Scanning:** Nmap, Gobuster, Hydra, Netdiscover.
+  - **Offensive/Scanning:** Nmap, Gobuster, Hydra, Netdiscover. <br>&nbsp;
 - **Networking Infrastructure:** - Cisco Packet Tracer (Routing/Switching), VPNs and Network Traffic Analysis.
 - **Programming:** - Python (Automation scripts), C, Java, JavaScript, and Ruby (Basics).
 
