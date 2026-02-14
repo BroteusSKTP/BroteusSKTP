@@ -40,7 +40,7 @@
      - Operational structure of a **SOC** (Security Operations Center) and the role of **SIEM** technology.
 </details>
 
-### ✅ 3. Careers in Cyber
+### ✅ 3. Careers in Cyber <a name="careers"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
