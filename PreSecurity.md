@@ -424,7 +424,7 @@
 ---
 ## Linux Fundamentals
 ---
-### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
+### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc) <a name="linuxfund1"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -438,7 +438,7 @@
      - **Shell Operators:** `&`, `&&`, `>`, `>>`.
 </details>
 
-### ✅ 2. Linux Fundamentals Part 2
+### ✅ 2. Linux Fundamentals Part 2 <a name="linuxfund2"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -493,7 +493,7 @@
          - Important for pentesting because any user can write in this folder by default.
 </details>
 
-### ✅ 3. Linux Fundamentals Part 3
+### ✅ 3. Linux Fundamentals Part 3 <a name="linuxfund3"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
