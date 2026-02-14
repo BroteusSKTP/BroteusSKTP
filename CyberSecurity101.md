@@ -44,3 +44,18 @@
 ### ✅ 3. Linux Fundamentals Part 3
 > **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#linuxfund3) path. 
 > Please refer to that section for the full technical summary and lab execution details.
+
+---
+## Windows Fundamentals
+---
+### ✅ 1. Windows Fundamentals Part 1
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#windowsfund1) path. 
+> Please refer to that section for the full technical summary and lab execution details.
+
+### ✅ 2. Windows Fundamentals Part 2
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#windowsfund2) path. 
+> Please refer to that section for the full technical summary and lab execution details.
+
+### ✅ 3. Windows Fundamentals Part 3
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#windowsfund3) path. 
+> Please refer to that section for the full technical summary and lab execution details.
