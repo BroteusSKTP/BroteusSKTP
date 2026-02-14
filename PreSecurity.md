@@ -575,7 +575,7 @@
 ---
 ## Windows Fundamentals
 ---
-### ✅ 1. Windows Fundamentals 1
+### ✅ 1. Windows Fundamentals 1 <a name="windowsfund1"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -648,7 +648,7 @@
       - Can access by `Right Click Taskbar -> Task Manager` or `Ctrl + Shift + Esc`.
 </details>
 
-### ✅ 2. Windows Fundamentals 2
+### ✅ 2. Windows Fundamentals 2 <a name="windowsfund2"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -752,7 +752,7 @@
             - **`regedit`:** One way to view/edit the registry.
 </details>
 
-### ✅ 3. Windows Fundamentals 3
+### ✅ 3. Windows Fundamentals 3 <a name="windowsfund3"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
