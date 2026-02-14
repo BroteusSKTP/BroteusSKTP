@@ -752,14 +752,70 @@
             - **`regedit`:** One way to view/edit the registry.
 </details>
 
-### 🟡 3. Windows Fundamentals 3
+### ✅ 3. Windows Fundamentals 3
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 14/02/2026
 * **Objective:** Learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker...
-* **Laboratory Execution:**
-* **Knowledge Base:**
+* **Laboratory Execution:** Explored Windows Update and Security features in a remote Windows Server machine.
+* **Knowledge Base:** <br>&nbsp;
+   - **Windows Update:** Service provided by Microsoft to provide security updates, feature enhancements, and patches. <br>&nbsp;
+      - **Patch Tuesday:** Updates are typically released on the 2nd Tuesday of each month unless it is a critical/patch.
+      - **Access:** CMD or Run Dialog Box `control /name Microsoft.WindowsUpdate`.
+      - Updates are forced since Windows 10 (Note: Can be postponed but eventually will happen.) <br>&nbsp;
+         - This was implemented because users would not update OS due to forced reboots. <br>&nbsp;
+      - **Windows Security:** Home to manage the tools that protect your device and your data (per Microsoft). <br>&nbsp;
+         - Can be accessed via `Settings`.
+         - **Status Icons:** <br>&nbsp;
+            - **Green:** It is sufficiently protected and no recommended actions.
+            - **Yellow:** There are safety recommendations for review.
+            - **Red:** Needs immediate attention.
+            - **Virus & Threat Protection:** <br>&nbsp;
+               - **Current Threats:** <br>&nbsp;
+                  - **Scan Options:** <br>&nbsp;
+                     - **Quick Scan:** Checks folders in system (commonly found).
+                     - **Full Scan:** Checks all files and running programs on hard disk.
+                     - **Custom Scan:** Choose which files and locations to check. <br>&nbsp;
+                  - **Threat History:** <br>&nbsp;
+                     - **Last Scan:** Check your manual or automatic last scan.
+                        - Windows Defender automatically scans device. <br>&nbsp;
+                     - **Quarantined Threats:** Threats isolated and prevented from running.
+                        - If no action, they are periodically removed. <br>&nbsp;
+                     - **Allowed Threats:** Items identified as threats but the user allowed to run on the device. <br>&nbsp;
+               - **Virus & Threat Protection Settings:** <br>&nbsp;
+                  - **Manage settings:** <br>&nbsp;
+                     - **Real Time Protection:** Locate and stops malware from installing or running.
+                     - **Cloud Delivered Protection:** Improved protection with access to data in the cloud.
+                     - **Controlled Folder Access:** Protects files, folders and memory areas from unauthorized changes by malicious or unknown applications.
+                        - This can be enabled/disabled by `Controlled Folder Access -> Manage controlled folder access`. <br>&nbsp;
+                     - **Exclusions:** Allows to exclude files/folders from being scanned.
+                        - To add to the Windows Defender exclusion list `Exclusions -> Add or remove exclusions`. <br>&nbsp;
+                     - **Notifications:** Critical information about the health and security of your device. <br>&nbsp;
+                  - **Virus & Threat Protection Updates:** 
+                     - **Check for updates:** - Manually check for updates for Windows Defender Antivirus definitions. <br>&nbsp;
+                  - **Ransomware Protection:**
+                     - **Controlled folder access:** Ransomware protection that requires Real-time protection to be enabled. <br>&nbsp;
+            - **Firewall & Network Protection:** <br>&nbsp;
+               - **Domain Network:** Applies to networks where the host system can authenticate to a domain controller.
+               - **Private Network:** Used to designate private or home networks.
+               - **Public Network:** Used to designate public networks (e.g., Wi-Fi hotspots at coffee shops or airports.
+               - Can turn the firewall on/off, block all incoming connections and check settings (e.g., allowed apps) in all profiles.
+               - **`WF.msc`:** Open the Windows Defender Firewall. <br>&nbsp;
+            - **App and Browser Control:** <br>&nbsp;
+               - **Microsoft Defender SmartScreen:** Protects against phishing/malware websites, applications, and the downloading of potentially malicious files (`Block`, `Warn` and `Off`). <br>&nbsp;
+            - **Device Security:** <br>&nbsp;
+               - **Core isolation:**
+                  - **Memory Integrity:** Prevents attacks from inserting malicious code into high-security processes. <br>&nbsp;
+               - **Security Processor or TPM (Trusted Platform Module):** Crypto-processor chip for hardware-based security.
+               - **Bitlocker:** Full disk encryption which is most effective with TPM 1.2 or later.
+               - **VSS (Volume Shadow Copy Service):** Coordinates system snapshots for backups/Restore Points. <br>&nbsp;
+                  - **Advanced System Settings:**
+                     - Create a restore point.
+                     - Perform system restore.
+                     - Configure restore settings.
+                     - Delete restore points. <br>&nbsp;
+                  - Malware is developed to locate and delete these files to make a ransomware attack effective.  
 </details>
 
 ---
