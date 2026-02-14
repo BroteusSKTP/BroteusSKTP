@@ -13,6 +13,14 @@
 ## Introduction to Cyber Security
 ---
 ### ✅ 1. Offensive Security Intro
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#Offensive-Security-Intro) path. 
+> Please refer to that section for the full technical summary and lab execution details.
+
+### ✅ 2. Defensive Security Intro
+> **Note:** This room was previously completed during the [Pre Security](PreSecurity.md) path. 
+> Please refer to that section for the full technical summary and lab execution details.
+
+### ✅ 3. Offensive Security Intro
 <details> <summary><b>Click to see summary</b></summary>
 <br>   
    
@@ -22,4 +30,4 @@
      - Established connectivity between Kali Linux (VMware) and the lab network via OpenVPN.
      - Performed directory enumeration using **DirBuster**. <br>&nbsp;
 * **Knowledge Base:** Understanding Offensive Security.
-</details>
+</details
