@@ -24,7 +24,7 @@
 * **Knowledge Base:** Understanding Offensive Security.
 </details>
 
-### ✅ 2. Defensive Security Intro
+### ✅ 2. Defensive Security Intro <a name="defensive-intro"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
