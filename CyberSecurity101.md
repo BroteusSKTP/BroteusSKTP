@@ -10,7 +10,7 @@
 
 ---
 ---
-## Introduction to Cyber Security
+## Start Your Cyber Security Journey
 ---
 ### ✅ 1. Offensive Security Intro
 > **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#offensive-intro) path. 
@@ -20,14 +20,12 @@
 > **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#defensive-intro) path. 
 > Please refer to that section for the full technical summary and lab execution details.
 
-### ✅ 3. Offensive Security Intro
+### 🟡 3. Search Skills
 <details> <summary><b>Click to see summary</b></summary>
 <br>   
    
 * **Status:** Completed on 29/01/2026.
-* **Objective:** Hack my first website (legally in a safe environment) and experience an ethical hacker's job.
-* **Laboratory Execution:** <br>&nbsp;
-     - Established connectivity between Kali Linux (VMware) and the lab network via OpenVPN.
-     - Performed directory enumeration using **DirBuster**. <br>&nbsp;
-* **Knowledge Base:** Understanding Offensive Security.
+* **Objective:** Learn to efficiently search the Internet and use specialized search engines and technical docs.
+* **Laboratory Execution:**
+* **Knowledge Base:**
 </details
