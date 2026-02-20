@@ -20,14 +20,48 @@
 > **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#defensive-intro) path. 
 > Please refer to that section for the full technical summary and lab execution details.
 
-### 🟡 3. Search Skills
+### ✅ 3. Search Skills
 <details> <summary><b>Click to see summary</b></summary>
-<br>   
+<br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 20/02/2026
 * **Objective:** Learn to efficiently search the Internet and use specialized search engines and technical docs.
 * **Laboratory Execution:**
-* **Knowledge Base:**
+* **Knowledge Base:** <br>&nbsp; 
+   - **Evaluation of Search Results:** <br>&nbsp; 
+      - **Source:** Identify author or organization and if they are reputable or authoritative on the subject matter.
+      - **Evidence and Reasoning:** Check if the claims are backed by credible evidence and logical reasoning.
+      - **Objectivity and Bias:** Evaluate if the information is presented impartially and rationally, from multiple perspectives.
+      - **Corroboration and Consistency:** Validate corroboration from multiple reliable and reputable sources. <br>&nbsp; 
+   - **Search Engines:** <br>&nbsp; 
+      - Almost every Internet search engine allows advanced searches.
+      - **Google:** <br>&nbsp; 
+         - **`"exact phrase"`:** Search pages with exact wording/phrase.
+         - **`site:domain`** Search in domain only.
+         - **`-`:** Exclude words/phrases from results.
+         - **`filetype:`** Search files instead of web pages (e.g., `PDF`, `DOC`, `XLS`, `PPT`). <br>&nbsp; 
+   - **Specialized Search Engines:** <br>&nbsp; 
+      - **[Shodan](https://www.shodan.io/):** Devices connected to the internet (e.g., types and versions of servers, networking equipment, industrial control systems).
+      - **[Censys](https://search.censys.io/):** Internet-connected hosts, websites, certificates, and other Internet assets.
+      - **[VirusTotal](https://www.virustotal.com/gui/home/upload):** Provides a virus-scanning service for files using multiple antivirus engines.
+      - **[Have I Been Pwned](https://haveibeenpwned.com/):** Checks if an email was leaked in a data breach. <br>&nbsp; 
+   - **Vulnerabilities and Exploits:** <br>&nbsp; 
+      - **[CVE](https://www.cve.org/):**
+         - Common Vulnerabilities and Exposures (CVE) program.
+         - Provides a standardized identifier for vulnerabilities and security issues in software and hardware products. <br>&nbsp; 
+      - **[Exploit Database](https://www.exploit-db.com/):** Lists exploit code from various authors, some of which are tested and verified.
+         - **Note:** Should not be used for illegal purposes. <br>&nbsp; 
+      - **[Github](https://github.com/):** Web-based platform for software development which can contain many tools related to CVEs, proof-of-concept (PoC) and exploit codes. <br>&nbsp; 
+   - **Technical Documentation:** <br>&nbsp; 
+      - **`man <command>`** Shows manual page for the command in question (LINUX).
+      - **Microsoft Windows:** Provides an official Technical Documentation page for its products.
+      - **Product Documentation:** <br>&nbsp; 
+         - Every product is expected to have a well-organized documentation.
+         - This documentation provides an official and reliable source of information about the product features and functions. <br>&nbsp; 
+   - **Social Media:** <br>&nbsp; 
+      - Offers a wealth of information for cyber security professionals, whether they are searching for people or technical information.
+      - Oversharing can lead to security breaches (e.g., find secret answer to reset passwords).
+      - Can be used as an information tool to stay updated with new cyber security trends, news, technologies and products.
 </details>
 
 ---
