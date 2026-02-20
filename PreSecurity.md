@@ -1,4 +1,6 @@
-**Note:** Official Badges are hyperlinked to the images on the right side of each module header (where applicable). <br>&nbsp;
+>**Note 1:** Official Badges are hyperlinked to the images on the right side of each module header (where applicable).
+>
+>**Note 2:** This documentation is based on the path, rooms and machines provided by TryHackMe. All rights to the original instructional material and platform assets are reserved to the respective authors.
 
 ## Home Lab Setup
 <details> <summary><b>Click to see summary</b></summary> <br>
