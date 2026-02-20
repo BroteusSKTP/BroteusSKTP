@@ -94,6 +94,16 @@
 > **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#windowsfund3) path. 
 > Please refer to that section for the full technical summary and lab execution details.
 
+### 🟡 4. Active Directory Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>   
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn the basic concepts and functionality provided by Active Directory.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
 ---
 ## Command Line
 ---
