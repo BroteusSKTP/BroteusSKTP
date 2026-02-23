@@ -430,396 +430,55 @@
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Completed on 02/02/2026.
+* **Status:** In Progress (Learning & Documenting).
 * **Objective:** Learn the basic components of a computer system.
-* **Laboratory Execution:** Practical application in ubuntu terminal.
-* **Knowledge Base:** <br>&zwnj;
-     - A bit of background on Linux.
-     - **Basic Commands:** `cd`, `ls`, `cat`, `pwd`.
-     - **Search for Files:** `find`, `grep`.
-     - **Shell Operators:** `&`, `&&`, `>`, `>>`.
+* **Laboratory Execution:**
+* **Knowledge Base:**
 </details>
 
-### ✅ 2. Linux Fundamentals Part 2
+### 🟡 2. Computer Types
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Completed on 10/02/2026
-* **Objective:** Learn how to log in to a Linux machine using SSH, how to advance commands, file system interaction.
-* **Laboratory Execution:** <br>&zwnj;
-   - Login to a TryHackMe machine through kali linux using SSH (`ssh username@IP`).
-   - **Flags and Switches:** Application of ls `-a`, `--help` and `man`.
-   - **Filesystem Interaction:** Application of `touch`, `cp`, `mv`, `mkdir`, `rm` and `file`.
-   - **Permissions:** Application of `ls -lh` and `su -l`.
-   - **Common Directories:** Explore `/etc`, `/var`, `/root` and `/tmp`. <br>&zwnj;
-* **Knowledge Base:** <br>&zwnj;
-   - **SSH (Secure Shell):** <br>&zwnj;
-      - Protocol between devices in an encrypted form.
-      - Allows connection and interaction with a remote machine. <br>&zwnj;
-   - **`ls`:** <br>&zwnj;
-      - **`-a`:** Shows hidden files.
-      - **`--help`:** Shows list of all possible options and brief description.
-      - **`man`:** Shows manual pages of information for both system commands and applications.
-      - **`-lh`:** Long list format with human-readable file sizes. <br>&zwnj;
-   - **`touch`:** Create file.
-   - **`mkdir`:** Create folder.
-   - **`cp`:** Copy file or folder.
-   - **`mv`:** Move a file or folder.
-   - **`rm`:** Remove a file or folder.
-   - **`file`:** Determine the type of a file. <br>&zwnj;
-   - **Permissions:** <br>&zwnj; <br>&zwnj;
-     <img width="402" height="78" alt="image" src="https://github.com/user-attachments/assets/6b586ac1-c431-4222-951b-b4f8009aaba1" /> <br>&zwnj;  
-      - **r:** `Read` (Value = 4).
-      - **w:** `Write` (Value = 2).
-      - **x:** `Execute` (Value = 1). <br>&zwnj;
-      - **First 3 Bits:** `Owner` (The user who owns the file).
-      - **Next 3 Bits:** `Group` (Users in the file's group).
-      - **Last 3 Bits:** `Others` (Everyone else on the system).
-      - **Users & Groups:** User can own a file and, if permissions have been set, groups of users can have the same or different set of permissions.  <br>&zwnj;
-      - **`su`:** Switches user by inputting the respective password. <br>&zwnj;
-         - **`-l`:** Switch that allows to inherit more properties of the new user (e.g., environment variables).  <br>&zwnj;
-      - **`chmod`:** Modifies file or directory permissions. <br>&zwnj;
-         - We need to calculate the numeric value and add them together for each group. For example:
-           ``` bash
-           chmod 755 example.txt
-           ```
-            - Owner - Full Access (4 + 2 + 1).
-            - Group - Read + Execute (4 + 1).
-            - Others - Read + Execute (4 + 1). <br>&zwnj;
-   - **Common Directories:** <br>&zwnj;
-      - **`/etc`:** Commonplace location to store system configuration files.
-      - **`/var`:** Stores data that is frequently accessed or written by services and applications.
-      - **`/root`:** Home for the "root" system user.
-      - **`/tmp`:**
-         - Stores temporary data that gets cleared out when the system resets.
-         - Important for pentesting because any user can write in this folder by default.
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore the different types of computers.
+* **Laboratory Execution:** 
+* **Knowledge Base:** 
 </details>
 
-### ✅ 3. Linux Fundamentals Part 3 <a name="linuxfund3"></a>
+### 🟡 3. Client-Server Basics
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** Completed on 11/02/2026
-* **Objective:** Hands-on with some common utilities.
-* **Laboratory Execution:** <br>&zwnj;
-   - Edited and created files using `nano`
-   - Started a web server using `python3 -m http.server` and downloaded files with `wget`.
-   - Managed processes using `top`, `ps aux`, and `kill`.
-   - Inspected scheduled tasks in `crontab` and analyzed system logs in `/var/log`. <br>&zwnj;
-* **Knowledge Base:** <br>&zwnj;
-   - **Terminal Text Editors:** <br>&zwnj;
-      - **`nano`:** Beginner-friendly editor. Features include text search (`Ctrl+W`), line jumping, and position tracking.
-      - **`vim`:** Advanced editor with modal editing, syntax highlighting, and high portability across all Unix systems. <br>&zwnj;
-   - **General/Useful Utilities:** <br>&zwnj;
-      - **`wget`:** Downloads files via HTTP/HTTPS (e.g., `wget https://assets.tryhackme.com/additional/linux-fundamentals/part3/myfile.txt`).
-      - **`scp`:** Securely copies files/directories between hosts using SSH encryption. <br>&zwnj; <br>&zwnj;
-        <img width="499" height="47.5" alt="image" src="https://github.com/user-attachments/assets/646c2939-8b30-458a-b354-4f6c2ae16336" /> <br>&zwnj;
-      - **`http.server`:** Python module to quickly serve files from the current directory (Note: Does not provide directory indexing by default). <br>&zwnj; <br>&zwnj;
-           <img width="505" height="55" alt="image" src="https://github.com/user-attachments/assets/e15f53d8-96c6-4a4a-87ef-4d52431c7647" />
-           <br>&zwnj;
-           <img width="465" height="27.5" alt="image" src="https://github.com/user-attachments/assets/5aa14964-2e76-41d8-aeac-e7fe625df47f" /> <br>&zwnj;
-   - **Processes 101:** <br>&zwnj;
-      - **PID:** Unique Process ID assigned in order of startup.
-      - **Namespaces:** OS feature used to isolate resources (CPU, RAM, Network) so processes remain sandboxed.
-      - **systemd:** The first process (**PID 1**) that starts at boot. It is the "parent" of all system processes.
-      - **`ps`:** Provides a list of running processes of the user session. <br>&zwnj;
-         - **Additional Information:** <br>&zwnj;
-            - Status Code.
-            - Session that is running it.
-            - Usage time of the CPU.
-            - Name of the program or command executed.
-            - **`aux`:** Shows processes run by other users and the system. <br>&zwnj; <br>&zwnj;
-              <img width="606" height="144" alt="image" src="https://github.com/user-attachments/assets/fc195e76-b58e-4d38-89b1-598594b4a619" /> <br>&zwnj;
-      - **`top`:** Shows real time statistics about the processes.
-      - **`kill`:** Terminates processes. Flags: `SIGTERM` (clean exit), `SIGKILL` (forced exit), `SIGSTOP` (suspend).
-      - **`systemctl`:** Allows to interact with systemd process/daemon. <br>&zwnj; <br>&zwnj;
-        <img width="217.5" height="32.5" alt="image" src="https://github.com/user-attachments/assets/1e9bbbb0-d512-404e-8aa5-0f81a14d2f75" /> <br>&zwnj;
-         - **Options:** <br>&zwnj;
-            - **`Start`** Manually starts service.
-            - **`Stop`:** Manually stops service.
-            - **`Enable`:** Starts on boot.
-            - **`Disable`:** Doesn't start on boot.
-            - **`Status`:** Running status. <br>&zwnj;
-      - **Background & Foreground:** <br>&zwnj;
-         - **`Ctrl + Z`:** Pauses a foreground process and sends it to the background.
-         - **`&`:** Run command directly in the background.
-         - **`fg`:** Brings a background process back to the foreground. <br>&zwnj;
-   - **Automation:** <br>&zwnj;
-      - **`crontab -e`:** Edits the schedule file. Format: `MIN HOUR DOM MON DOW CMD`. <br>&zwnj;
-         - **Values:** <br>&zwnj;
-            - **MIN:** What minutes to execute at.
-            - **HOUR:** What hour to execute at.
-            - **DOM:** What day of the month to execute at.
-            - **MON:** What month of the year to execute at.
-            - **DOW:** What day of the week to execute at.
-            - **CMD:** Command to be executed.
-            <br>
-            <img width="410" height="24" alt="image" src="https://github.com/user-attachments/assets/f7bbfb5b-ec33-4995-8e5d-ef805e3f0406" /> <br>&zwnj;
-   - **Package Management:** <br>&zwnj;
-      - **APT:** Advanced Package Tool. Uses repositories and GPG keys to ensure software integrity and updates.
-      - **`add-apt-repository`:** Manages third-party software sources (PPAs).
-      - **GPG (Gnu Privacy Guard) Key:** Guarantees the integrity of our downloaded software by matching with system trusted keys and developer's.
-      - **Steps:** <br>&zwnj;
-         - Download the GPG key and use apt-key to trust it.
-           <img width="600" height="22.5" alt="image" src="https://github.com/user-attachments/assets/a4905fe5-fda5-4fa8-a90d-842634f2b758" />
-         - Add repository to apt source list.
-         - Use `nano` or text editor to add and save repository into the list.
-           <img width="540" height="52" alt="image" src="https://github.com/user-attachments/assets/ebd3dfc9-b65b-443b-89c5-1d39b7542713" />
-         - Use `apt update`.
-         - Use `apt install software`. <br>&zwnj;
-      - **Remove:** <br>&zwnj;
-         - Delete list/file created and use `apt remove software` command.
-         - Or `add-apt-repository --remove ppa:PPA_Name/ppa`. <br>&zwnj;
-   - **Logs:** Located in `/var/log`. Crucial for monitoring system health and investigating security incidents (e.g., unauthorized access in `auth.log`).
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn the basics of the Client-Server model.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
 
+### 🟡 4. Virtualisation Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn why virtualisation powers modern IT, improving efficiency and safely isolating environments.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 5. Cloud Computing Fundamentals
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn how cloud computing helps businesses move faster, do more, and scale with less effort.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
 </details>
 
 ---
-## Windows Fundamentals
+## Operating Systems Basics
 ---
-### ✅ 1. Windows Fundamentals 1 <a name="windowsfund1"></a>
-<details> <summary><b>Click to see summary</b></summary>
-<br>  
-   
-* **Status:** Completed on 12/02/2026
-* **Objective:** Learn about the Windows desktop, the NTFS file system, UAC, the Control Panel...
-* **Laboratory Execution:** <br>&nbsp;
-   - Connected to tryhackme windows machine through RDP `xfreerdp3`.
-   - Explored Local User and Management for information and user's permissions.
-   - Explored Control Panel, Settings and Task Manager. <br>&nbsp;
-* **Knowledge Base:** <br>&nbsp;
-   - **Windows Editions:** <br>&nbsp;
-      - Dominant operating system for in home use and corporate networks.
-      - Current version of the Windows operating system for servers is Windows Server 2025.
-      - Each new version of the Windows OS brought improved functionality and security. <br>&nbsp;
-   - **GUI (Graphical User Interface):** <br>&nbsp;
-      - Composed of `The Desktop`, `Start Menu`, `Search Box (Cortana)`, `Task View`, `Taskbar`, `Toolbars` and `Notification Area`.
-      - **The Desktop:** Location where shortcuts are displayed for easy access and customizable (note: remote access has restrictions on display settings).
-      - **The Start Menu:** <br>&nbsp;
-         - Provides access to all programs/apps, files, utility tools, etc... (Windows button).
-         - Divided by three sections: <br>&nbsp;
-            - **Left Section:** Shortcuts to actions regarding account/login session, Documents/Pictures and Settings.
-            - **Middle Section:** Shows all **Recently Added** on top and all the installed app/programs in alphabetical order below.
-            - **Right Section:** Default tiles which are icons of specific programs/apps or utilities. <br>&nbsp;
-      - **The Taskbar:** Some components are visible by default and any opened apps/programs, folders, files, etc... are shown here.
-      - **The Notification Area:** Tipically located at the bottom right corner, displays time, date, volume, internet among other icons. <br>&nbsp;
-   - **The File System:** <br>&nbsp;
-      - Modern versions of windows use NTFS (New Technology File System).
-      - Before there was FAT16/FAT32 (File Allocation Table) that are still used in USB devices or MicroSD cards and HPFS (High Performance File System). <br>&nbsp;
-      - **NTFS:** <br>&nbsp;
-         - Journaling file system that can automatically repair files on disk using information stored in logs.
-         - Supports files larger than 4GB.
-         - Set specific permissions on folders and files. <br>&nbsp;
-            - To see those permissions `Right Click the file or folder -> Security Tab -> Permissions for Users list` (Credit: Microsoft). <br>&nbsp; <br>&nbsp;
-           <img width="631" height="319" alt="image" src="https://github.com/user-attachments/assets/6876a2a1-6d55-455c-82ee-a4aeef1b61d4" /> <br>&nbsp;
-         - Folder and file compression.
-         - EFS (Encryption File System).
-         - **ADS (Attribute Data Stream):** <br>&nbsp;
-            - Allows files to contain more than one stream of data.
-            - Need 3rd party executables or PowerShell to see.
-            - Malware writers have used ADS to hide data. <br>&nbsp;
-   - **System32:** <br>&nbsp;
-      - **`C:\Windows`:** Folder that usually contains the Windows operating system but can be in a different drive or folder.
-      - **`%windir%`:** System environment variable for the Windows directory.
-      - Environment variables store information about the operating system environment such as operating system paths, the number of processors used and location of temporary folder.
-      - The system32 folder, that resides in Windows directory, contains important files that are critical for the operating system. <br>&nbsp;
-   - **User Accounts and Permissions:** <br>&nbsp;
-      - User accounts can be Administrator and Standard User.
-      - It determines what actions can perform on the Windows system.
-      - When an user account is created, a profile is created after first login and will fall under `C:\Users` folder.
-      - Have same folders such as `Desktop`, `Documents`, `Downloads`, `Music` and `Pictures`.
-      - To determine which users exist on the system: <br>&nbsp;
-         - `Start Menu -> type Other User -> Other Users System Settings`. <br>&nbsp;
-            - Add someone else to this PC (Administrator).
-            - Change account type and Remove. <br>&nbsp;
-         - **Local User and Group Management:** `Right Click Start Menu -> Run -> Type lusrmgr.msc`. <br>&nbsp;
-            - We can inspect groups and users details and descriptions under the respective folders.
-            - An user added to a group (by an Administrator) inherits the groups access permissions. <br>&nbsp;
-   - **UAC (User Account Control):** <br>&nbsp;
-      - Protects the local user by limiting system privileges.
-      - By default, doesn't apply for Administrator accounts, asking for confirmation when executing high privilege actions. 
-      - It reduces the likelihood of Malware compromising. <br>&nbsp;
-   - **Settings and Control Panel:** <br>&nbsp;
-      - Primary locations to make system changes.
-      - To see applications installed in control Panel: `Programs -> Programs and Features`.
-      - Both can be accessed from the Start Menu.
-      - Control Panel is where more complex settings and actions are made.
-      - Can use start menu search bar to locate the desired settings. <br>&nbsp;
-   - **Task Manager:** <br>&nbsp;
-      - Provides information regarding processes/applications running in the system.
-      - Can access by `Right Click Taskbar -> Task Manager` or `Ctrl + Shift + Esc`.
-</details>
-
-### ✅ 2. Windows Fundamentals 2 <a name="windowsfund2"></a>
-<details> <summary><b>Click to see summary</b></summary>
-<br>  
-   
-* **Status:** Completed on 13/02/2026
-* **Objective:** Learn about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry...
-* **Laboratory Execution:** Explored some System Configuration tools and Advanced System settings on a Windows Server machine.
-* **Knowledge Base:** <br>&nbsp;
-   - **System Configuration:** Utility for advanced troubleshooting and diagnosing startup issues (Administrator). <br>&nbsp;
-      - **General:** Select devices and services to load upon boot (`Normal`, `Diagnostic` or `Selective`).
-      - **Boot:** Select boot options for the Operating System.
-      - **Services:** Lists all services (running or not) configured for the system.
-      - **Startup:** Redirects to Task Manager since it is not a startup management program on a Windows Server. <br>&nbsp;
-         - You can access via `Win + R -> type shell:startup`. <br>&nbsp;
-      - **Tools:** List of tools to configure operating system further. <br>&nbsp;
-   - **Advanced System Settings:** Additional configuration settings to control performance behavior and system recovery. <br>&nbsp;
-      - Can access by searching `View advanced system settings` in search bar.
-      - **`Advanced tab -> Settings under Performance`:** View and Modify the page file. <br>&nbsp;
-         - Windows uses a page file as an extra virtual space when the physical RAM becomes full.
-         - Gives information such as file size configured, the drive where the page is stored, the initial/maximum size and if Windows manages the size automatically. <br>&nbsp;
-      - **`Advanced tab -> Settings under Startup and Recovery`:** View and modify crash dump settings. <br>&nbsp;
-         - Crash dump files are created by the OS whenever it encounters a critical error.
-         - **`Write debugging information`** Type of crash dump configured for the system and how much information is saved. <br>&nbsp;
-            - Automatic memory dump.
-            - Kernel memory dump.
-            - Small memory dump (256 KB).
-            - Complete memory dump.
-            - None. <br>&nbsp;
-      - **System Configuration Tools:** <br>&nbsp;
-         - **UAC:** Settings can be changed through a slider. <br>&nbsp;
-            - **Always notify:** OS notifies administrator anytime an app tries to make changes and the desktop dims.
-            - **Notify for apps:** OS notifies only when apps try to make changes, but not when Administrator change Windows settings (default).
-            - **Notify without dimming:** Same as above but screen does not dim.
-            - **Never notify:** Notifications are turned off. <br>&nbsp;
-         - **Computer Management `compmgmt`:** <br>&nbsp;
-            - **System tools:** <br>&nbsp;
-               - **Task Scheduler:** Create and manage common tasks carried automatically at the specified time. <br>&nbsp;
-                  - Scheduled tasks can be viewed under Task Scheduler Library
-                  - To create a basic task, the option `Create Basic Task` is under Actions (right pane). <br>&nbsp;
-               - **Event Viewer:** View events that have occurred on the computer. <br>&nbsp;
-                  - Information can be used to diagnose problems and investigate actions executed on the system.
-                  - **Three Panes:** <br>&nbsp;
-                     - **Left Pane:** Provides a hierarchical tree listing of the event log providers.
-                     - **Middle Pane:** Display a general overview and summary of the events.
-                     - **Right Pane:** Actions pane (Credits: Microsoft). <br>&nbsp;<br>&nbsp;
-                       <img width="880" height="421" alt="image" src="https://github.com/user-attachments/assets/6b515d44-be8c-4e38-a5cc-836edb582412" /> <br>&nbsp;
-                     - Under Windows Logs: <br>&nbsp;<br>&nbsp;
-                       <img width="875" height="290" alt="image" src="https://github.com/user-attachments/assets/7359116f-6c6b-4b84-8300-1d1cbd050884" /> <br>&nbsp;
-               - **Shared Folder:** Complete list of shares and folders shared. <br>&nbsp;
-                  - Can see permissions by `Right Click -> Properties`.
-                  - **Sessions:** List of users who are currently connected to the shares.
-                  - **Open Files:** List of all the folders and/or files that the connected users access.
-                  - **Local Users and Groups:** Windows Fundamentals 1 room above.
-                  - **Performance:** View performance data either in real-time or from a log file. <br>&nbsp;
-                     - Useful for troubleshooting performance issues on a computer system. <br>&nbsp;
-               - **Device Manager:** View and configure the hardware.
-               - **Storage:** <br>&nbsp;
-                  - **Windows Server Backup:** No information at this room.
-                  - **Disk Management:** Enables you to perform advanced storage tasks such as: <br>&nbsp;
-                     - Set up a new drive.
-                     - Extend a partition.
-                     - Shrink a partition.
-                     - Assign or change a drive letter (ex. E:). <br>&nbsp;
-               - **Services and Applications:** <br>&nbsp;
-                  - **Services tab:** List of all the services and their statuses.
-                  - To see more information about a process `Right Click -> Properties`. <br>&nbsp;
-                     - **Startup Type:** <br>&nbsp;
-                        - **Automatic:** Starts every time the system boots.
-                        - **Manual:** starts when another process or user triggers the service.
-                        - **Disabled:** Doesn't start. <br>&nbsp;
-               - **WMI Control:** Configures and controls the Windows Management Instrumentation (WMI) service. <br>&nbsp;
-                  - Note: The WMIC tool is deprecated in Windows 10, version 21H1. Windows PowerShell supersedes this tool for WMI. <br>&nbsp;
-         - **System Information `msinfo32`:** Gathers information about your computer and displays a comprehensive view of your hardware, system components, and software environment. <br>&nbsp;
-            - **System Summary:** Display general technical specifications for the computer.
-            - **Hardware Resources:** No information at this room other than it is for advanced users.
-            - **Components:** Gives information about the hardware devices installed on the computer.
-            - **Software Environment:** Gives information about software baked into the OS and software you have installed. <br>&nbsp;
-               - **Environment Variables:** Information on Windows Fundamentals 1 room. Can be accessed through: <br>&nbsp;
-                  - `Control Panel > System and Security > System > Advanced system settings > Environment Variables`.
-                  - `Settings > System > About > system info > Advanced system settings > Environment Variables`. <br>&nbsp;
-            - There is a search bar to locate what is needed. <br>&nbsp;
-         - **Resource Monitor `resmon`:** <br>&nbsp;
-            - Displays per-process and aggregate CPU, memory, disk, and network usage information, in addition to providing details about which processes are using individual file handles and modules.
-            - **Four Sections:** `CPU`, `Disk`, `Network` and `Memory`.
-            - For advanced users who need to perform advanced troubleshooting on the computer system. <br>&nbsp;
-         - **Command Prompt `cmd`:** Terminal to interact with the OS. <br>&nbsp;
-            - **`hostname`:** Outputs the computer name.
-            - **`whoami`:** Outputs the name of the logged-in user.
-            - **`ipconfig`:** Shows the network address settings for the computer.
-            - **`/?` or `help`:** Shows the help manual (e.g., `ipconfig /?`).
-            - **`cls`:** To clear CMD screen.
-            - **`netstat`:** Displays protocol statistics and current TCP/IP network connections.
-            - **`net`:** Output shows the syntax for the root command showing a few of the sub-commands. <br>&nbsp;
-         - **Windows Registry:** <br>&nbsp;
-            - Central hierarchical database used to store information necessary to configure the system for one or more users, applications, and hardware devices.
-            - Contains information regarding: <br>&nbsp;
-               - Profiles for each user.
-               - Applications installed on the computer and the types of documents that each can create.
-               - Property sheet settings for folders and application icons.
-               - What hardware exists on the system.
-               - The ports that are being used. <br>&nbsp;
-            - **`regedit`:** One way to view/edit the registry.
-</details>
-
-### ✅ 3. Windows Fundamentals 3 <a name="windowsfund3"></a>
-<details> <summary><b>Click to see summary</b></summary>
-<br>  
-   
-* **Status:** Completed on 14/02/2026
-* **Objective:** Learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker...
-* **Laboratory Execution:** Explored Windows Update and Security features in a remote Windows Server machine.
-* **Knowledge Base:** <br>&nbsp;
-   - **Windows Update:** Service provided by Microsoft to provide security updates, feature enhancements, and patches. <br>&nbsp;
-      - **Patch Tuesday:** Updates are typically released on the 2nd Tuesday of each month unless it is a critical/patch.
-      - **Access:** CMD or Run Dialog Box `control /name Microsoft.WindowsUpdate`.
-      - Updates are forced since Windows 10 (Note: Can be postponed but eventually will happen.) <br>&nbsp;
-         - This was implemented because users would not update OS due to forced reboots. <br>&nbsp;
-      - **Windows Security:** Home to manage the tools that protect your device and your data (per Microsoft). <br>&nbsp;
-         - Can be accessed via `Settings`.
-         - **Status Icons:** <br>&nbsp;
-            - **Green:** It is sufficiently protected and no recommended actions.
-            - **Yellow:** There are safety recommendations for review.
-            - **Red:** Needs immediate attention.
-            - **Virus & Threat Protection:** <br>&nbsp;
-               - **Current Threats:** <br>&nbsp;
-                  - **Scan Options:** <br>&nbsp;
-                     - **Quick Scan:** Checks folders in system (commonly found).
-                     - **Full Scan:** Checks all files and running programs on hard disk.
-                     - **Custom Scan:** Choose which files and locations to check. <br>&nbsp;
-                  - **Threat History:** <br>&nbsp;
-                     - **Last Scan:** Check your manual or automatic last scan.
-                        - Windows Defender automatically scans device. <br>&nbsp;
-                     - **Quarantined Threats:** Threats isolated and prevented from running.
-                        - If no action, they are periodically removed. <br>&nbsp;
-                     - **Allowed Threats:** Items identified as threats but the user allowed to run on the device. <br>&nbsp;
-               - **Virus & Threat Protection Settings:** <br>&nbsp;
-                  - **Manage settings:** <br>&nbsp;
-                     - **Real Time Protection:** Locate and stops malware from installing or running.
-                     - **Cloud Delivered Protection:** Improved protection with access to data in the cloud.
-                     - **Controlled Folder Access:** Protects files, folders and memory areas from unauthorized changes by malicious or unknown applications.
-                        - This can be enabled/disabled by `Controlled Folder Access -> Manage controlled folder access`. <br>&nbsp;
-                     - **Exclusions:** Allows to exclude files/folders from being scanned.
-                        - To add to the Windows Defender exclusion list `Exclusions -> Add or remove exclusions`. <br>&nbsp;
-                     - **Notifications:** Critical information about the health and security of your device. <br>&nbsp;
-                  - **Virus & Threat Protection Updates:** 
-                     - **Check for updates:** - Manually check for updates for Windows Defender Antivirus definitions. <br>&nbsp;
-                  - **Ransomware Protection:**
-                     - **Controlled folder access:** Ransomware protection that requires Real-time protection to be enabled. <br>&nbsp;
-            - **Firewall & Network Protection:** <br>&nbsp;
-               - **Domain Network:** Applies to networks where the host system can authenticate to a domain controller.
-               - **Private Network:** Used to designate private or home networks.
-               - **Public Network:** Used to designate public networks (e.g., Wi-Fi hotspots at coffee shops or airports.
-               - Can turn the firewall on/off, block all incoming connections and check settings (e.g., allowed apps) in all profiles.
-               - **`WF.msc`:** Open the Windows Defender Firewall. <br>&nbsp;
-            - **App and Browser Control:** <br>&nbsp;
-               - **Microsoft Defender SmartScreen:** Protects against phishing/malware websites, applications, and the downloading of potentially malicious files (`Block`, `Warn` and `Off`). <br>&nbsp;
-            - **Device Security:** <br>&nbsp;
-               - **Core isolation:**
-                  - **Memory Integrity:** Prevents attacks from inserting malicious code into high-security processes. <br>&nbsp;
-               - **Security Processor or TPM (Trusted Platform Module):** Crypto-processor chip for hardware-based security.
-               - **Bitlocker:** Full disk encryption which is most effective with TPM 1.2 or later.
-               - **VSS (Volume Shadow Copy Service):** Coordinates system snapshots for backups/Restore Points. <br>&nbsp;
-                  - **Advanced System Settings:**
-                     - Create a restore point.
-                     - Perform system restore.
-                     - Configure restore settings.
-                     - Delete restore points. <br>&nbsp;
-                  - Malware is developed to locate and delete these files to make a ransomware attack effective.  
-</details>
-
 ---
 
 [⬅️ **Back to My Learning Journey**](LearningLabs.md)
