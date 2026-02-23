@@ -59,7 +59,7 @@
 ---
 ## Network Fundamentals <a href="https://tryhackme.com/BroteusSK/badges/network-fundamentals?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/4e7cfea5-d4f5-45bd-b695-77b30bdc8575" width="42.5" height="50" align="right"></sup></a>
 ---
-### ✅ 1. What is Networking?
+### ✅ 1. What is Networking? <a name="whatisnet"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -74,7 +74,7 @@
       - **MAC Address:** Physical hardware identification.
 </details>
 
-### ✅ 2. Intro to LAN
+### ✅ 2. Intro to LAN <a name="introalan"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -112,7 +112,7 @@
       - **DHCP ACK:** Server confirms and completes the process.
 </details>
     
-### ✅ 3. OSI Model
+### ✅ 3. OSI Model <a name="osimodel"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -140,7 +140,7 @@
       - **Application:** The layer where the user interacts with the network. Protocols like HTTP, FTP, and DNS operate here.
 </details>
 
-### ✅ 4. Packets & Frames
+### ✅ 4. Packets & Frames <a name="packets&frames"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -179,7 +179,7 @@
       - **TTL (Time To Live):** Contains the expiry timer for the packet. (Note: Technically a field in the IP Header to prevent infinite loops).
 </details>
 
-### ✅ 5. Extending Your Network
+### ✅ 5. Extending Your Network <a name="extendingnet"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -225,7 +225,7 @@
 ## How the Web Works <a href="https://tryhackme.com/BroteusSK/badges/world-wide-web?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/33616203-6b9a-4d14-bf13-77a507088849" width="42.5" height="50" align="right"></sup></a>
 
 ---
-### ✅ 1. DNS in Detail
+### ✅ 1. DNS in Detail <a name="dnsdetail"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -261,7 +261,7 @@
       - **Caching & TTL:** The result is cached by the Recursive DNS and the Client for a duration defined by the TTL (Time To Live) in seconds.
 </details>
 
-### ✅ 2. HTTP in Detail [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/af2391fb-4f55-4bdf-a45a-f6528e8b2997" align="right" />](https://tryhackme.com/BroteusSK/badges/web-fund?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc)
+### ✅ 2. HTTP in Detail [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/af2391fb-4f55-4bdf-a45a-f6528e8b2997" align="right" />](https://tryhackme.com/BroteusSK/badges/web-fund?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc) <a name="httpdetail"></a>
 
 <details> <summary><b>Click to see summary</b></summary>
 <br>
@@ -311,7 +311,7 @@
       - Server sends `Set-Cookie` -> Browser stores it -> Browser sends `Cookie` back on every future request.
 </details>
 
-### ✅ 3. How Websites Work
+### ✅ 3. How Websites Work <a name="howwebwork"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
@@ -370,7 +370,7 @@
         
 </details>
 
-### ✅ 4. Putting it all together
+### ✅ 4. Putting it all together <a name="putting"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
