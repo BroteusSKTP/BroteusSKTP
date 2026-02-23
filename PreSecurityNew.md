@@ -424,14 +424,14 @@
 </details>
 
 ---
-## Linux Fundamentals
+## Computer Fundamentals
 ---
-### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc) <a name="linuxfund1"></a>
+### 🟡 1. Inside a Computer System
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
 * **Status:** Completed on 02/02/2026.
-* **Objective:** Learn to run some of the first essential linux commands on an interactive terminal.
+* **Objective:** Learn the basic components of a computer system.
 * **Laboratory Execution:** Practical application in ubuntu terminal.
 * **Knowledge Base:** <br>&zwnj;
      - A bit of background on Linux.
@@ -440,7 +440,7 @@
      - **Shell Operators:** `&`, `&&`, `>`, `>>`.
 </details>
 
-### ✅ 2. Linux Fundamentals Part 2 <a name="linuxfund2"></a>
+### ✅ 2. Linux Fundamentals Part 2
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
