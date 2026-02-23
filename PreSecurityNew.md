@@ -530,6 +530,112 @@
 </details>
 
 ---
+## Software Basics
+---
+### 🟡 1. Data Representation
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn about how computers represent numbers and colors.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 2. Data Encoding
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn how computer encodes characters, from ASCII to Unicode's UTF.
+* **Laboratory Execution:** 
+* **Knowledge Base:** 
+</details>
+
+### 🟡 3. Python: Simple Demo
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore a basic Python program.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 4. JavaScript: Simple Demo
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore a basic JavaScript program.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 5. Database SQL Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn the basics of databases and SQL.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+---
+## Attacks and Defenses
+---
+### 🟡 1. The CIA Triad
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Understand the CIA Triad and how it shapes cyber security mindset.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 2. Cryptography Concepts
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn about cryptography.
+* **Laboratory Execution:** 
+* **Knowledge Base:** 
+</details>
+
+### 🟡 3. Become a Hacker
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore offensive security, the hacker mindset, and a web app.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 4. Become a Defender
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore defensive security, cyber infrastructure, and how to protect systems from attacks.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 5. Database SQL Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn the basics of databases and SQL.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+---
 
 [⬅️ **Back to My Learning Journey**](LearningLabs.md)
 
