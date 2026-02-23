@@ -479,6 +479,56 @@
 ---
 ## Operating Systems Basics
 ---
+### 🟡 1. Operating Systems: Introduction
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore the basics of operating systems and the core features.
+* **Laboratory Execution:**
+* **Knowledge Base:**
+</details>
+
+### 🟡 2. Windows Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn to navigate Windows, manage files, and use essential system tools.
+* **Laboratory Execution:** 
+* **Knowledge Base:** 
+</details>
+
+### 🟡 3. Linux CLI Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Learn to navigate through the Linux CLI.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 4. Windows CLI Basics
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Explore what Windows CLI is, how to navigate, and interact with the system using Windows CLI.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
+### 🟡 5. Operating System Security
+<details> <summary><b>Click to see summary</b></summary>
+<br>  
+   
+* **Status:** In Progress (Learning & Documenting).
+* **Objective:** Introduction to operating system security and SSH authentication on Linux.
+* **Laboratory Execution:**
+* **Knowledge Base:** 
+</details>
+
 ---
 
 [⬅️ **Back to My Learning Journey**](LearningLabs.md)
