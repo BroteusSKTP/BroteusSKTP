@@ -119,14 +119,27 @@
       - **Step 5:** The bootloader initializes and transfers the Operating System Kernel into the RAM.
 </details>
 
-### 🟡 2. Computer Types
+### ✅ 2. Computer Types
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 24/02/2026.
 * **Objective:** Explore the different types of computers.
-* **Laboratory Execution:** 
-* **Knowledge Base:** 
+* **Laboratory Execution:** N/A.
+* **Knowledge Base:** <br>&nbsp;
+   - **Laptop:** <br>&nbsp;
+      - Perfect for emails and documents, but slow to execute long tasks.
+      - They are built to be portable, and staying cool in a small, battery-powered device is difficult. <br>&nbsp;
+   - **Desktop:** Sustained performance at a fixed location.
+   - **Workstation:** Precision and reliability for professional tasks.
+   - **Servers:** Provide services to many users over a network.
+   - **Smartphone:** Pocket-sized computer optimized for battery life and connectivity.
+   - **Tablet:** Touch-first computer with larger screen.
+   - **IoT device:** Network-connected device with a single purpose.
+   - **Embedded Computer:** Computer built into another device. <br>&nbsp;
+   - **IoT vs Embedded:** <br>&nbsp;
+      - IoT devices are connected to the internet to report data or receive commands.
+      - Embedded computers might not connect to anything and perform dedicated tasks inside the machines they are embedded into.
 </details>
 
 ### 🟡 3. Client-Server Basics
