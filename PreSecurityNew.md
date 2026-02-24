@@ -72,14 +72,25 @@
 ---
 ## Computer Fundamentals
 ---
-### 🟡 1. Inside a Computer System
+### ✅ 1. Inside a Computer System
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 24/02/2026.
 * **Objective:** Learn the basic components of a computer system.
-* **Laboratory Execution:**
+* **Laboratory Execution:** N/A.
 * **Knowledge Base:**
+   - **Motherboard:** Connects and holds all different components together.
+   - **CPU (Central Processing Unit):**
+      - Executes instructions and in parallel if it is a modern CPU.
+      - Connects via CPU socket.
+   - **RAM (Random Access Memory):**
+      - Holds data temporarly so that the CPU can easily and quickly access.
+      - Use techonologies like DDR5 or DDR6 for inscreased speed and performance.
+   - **Storage:** Holds long-term saved data.
+      - **HDD:** Holds a large ammount of storage capacity and at low cost because it is slower than SSD.
+      - **SSD:** Use memory chips instead of moving parts, so it is faster than HDD.
+      - Connects via SATA cables or PCI express ports.
 </details>
 
 ### 🟡 2. Computer Types
