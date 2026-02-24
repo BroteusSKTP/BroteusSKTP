@@ -80,17 +80,43 @@
 * **Objective:** Learn the basic components of a computer system.
 * **Laboratory Execution:** N/A.
 * **Knowledge Base:**
-   - **Motherboard:** Connects and holds all different components together.
-   - **CPU (Central Processing Unit):**
-      - Executes instructions and in parallel if it is a modern CPU.
-      - Connects via CPU socket.
-   - **RAM (Random Access Memory):**
-      - Holds data temporarly so that the CPU can easily and quickly access.
-      - Use techonologies like DDR5 or DDR6 for inscreased speed and performance.
-   - **Storage:** Holds long-term saved data.
-      - **HDD:** Holds a large ammount of storage capacity and at low cost because it is slower than SSD.
-      - **SSD:** Use memory chips instead of moving parts, so it is faster than HDD.
-      - Connects via SATA cables or PCI express ports.
+  - **Computer System:**
+      - **Motherboard:** Connects and holds all different components together.
+      - **CPU (Central Processing Unit):** <br>&nbsp;
+         - Executes instructions, utilizing multi-core architecture for parallel processing in modern systems.
+         - Connects via CPU socket. <br>&nbsp;
+      - **RAM (Random Access Memory):** <br>&nbsp;
+         - Holds data temporarily so that the CPU can easily and quickly access it.
+         - Uses technologies like DDR4/DDR5 for increased speed and performance. <br>&nbsp;
+      - **Storage:** Holds long-term saved data. <br>&nbsp;
+         - **HDD:** Holds a large amount of storage capacity and at low cost because it is slower than SSD.
+         - **SSD:** Uses memory chips instead of moving parts, so it is faster than HDD.
+         - Connects via SATA cables or PCI express ports. <br>&nbsp;
+      - **Network Adapter:** <br>&nbsp;
+         - Lets computers communicate with other systems.
+         - Wireless and wired variants.
+         - Embedded in the motherboard or in expansion cards.
+         - Connects via PCI Express ports. <br>&nbsp;
+      - **PSU (Power Supply):** <br>&nbsp;
+         - Supplies energy to all system components.
+         - Distributes power from an outlet via main motherboard and Molex connectors. <br>&nbsp;
+      - **Graphics Card:** <br>&nbsp;
+         - Receives information from the operating system and programs, then outputs processed visual data to a monitor.
+         - Connect to PCI Express slots on the motherboard. <br>&nbsp;
+      - **Input/Output:** <br>&nbsp;
+         - Allows communication between a computer system and the external world.
+         - Input devices include keyboards, microphones, mice, and scanners.
+         - Output devices include monitors, printers and speakers.
+         - Common connectors include USB, HDMI, and DisplayPort. <br>&nbsp;
+   - **After Start Button:**
+     
+      <img width="652" height="72" alt="image" src="https://github.com/user-attachments/assets/fb2728b2-056a-4ebc-a8e4-a606320945cc" />
+ 
+      - **Step 1:** After pressing the start button a signal is sent to the PSU to allow power to flow to all components.
+      - **Step 2:** UEFI (Unified Extensible Firmware Interface) or BIOS (Basic Input/Output System) initializes and coordinates components.
+      - **Step 3:** POST (Power On Self Test) routine is loaded by the UEFI to test if the required components are present, configured correctly and functioning.
+      - **Step 4:** UEFI follows a priority list to determine which device to boot - usually SSD or HDD with OS installed.
+      - **Step 5:** The bootloader initializes and transfers the Operating System Kernel into the RAM.
 </details>
 
 ### 🟡 2. Computer Types
