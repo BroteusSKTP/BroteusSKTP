@@ -142,14 +142,40 @@
       - Embedded computers might not connect to anything and perform dedicated tasks inside the machines they are embedded into.
 </details>
 
-### 🟡 3. Client-Server Basics
+### ✅ 3. Client-Server Basics
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
+* **Status:** Completed on 25/02/2026.
 * **Objective:** Learn the basics of the Client-Server model.
 * **Laboratory Execution:**
-* **Knowledge Base:** 
+* **Knowledge Base:** <br>&nbsp;
+   - **Service, Client, Server:** <br>&nbsp;
+      - **Service:** A program that provides a specific function to other programs or users.
+      - **Client:** A program that requests a service from another program (the server).
+      - When using a browser to access a website, the browser is the client and the web server hosting the website is the server. <br>&nbsp;
+   - **Request and Response:** <br>&nbsp;
+      - The client sends a request to the server, and the server processes the request and sends back a response.
+      - If the request was not formatted correctly, or the requested resource was not available, the server sends back an error response. <br>&nbsp;
+   - **Protocol:** <br>&nbsp;
+      - Defines how a client can communicate with a server. <br>&nbsp;
+         - Which commands to the client and the server understand (e.g., **`GET`** command).
+         - How a request is structured (e.g., first the command then the order).
+         - What syntax is used to format the request (e.g., **`GET /index.html HTTP/1.1`**). 
+         - What response should be given to which type of request.
+         - What response to give to faulty requests (e.g., 404 Not Found). <br>&nbsp;
+   - **Port:** <br>&nbsp;
+      - Identifies a specific service running on a system.
+      - A server can run multiple services, each listening on a different port. <br>&nbsp;
+   - **DNS:** <br>&nbsp;
+      - Works similarly to a GPS, when a name of a website is entered, DNS resolves it to a server's location (IP address). <br>&nbsp;
+   - **Hypertext Transfer Protocol (HTTP):** <br>&nbsp;
+      - Stateless protocol used for communication between clients and servers on the World Wide Web.
+      - Mechanisms like token or cookie-based authentication are used to introduce statefulness at the application level. 
+      - **Core Commands/Methods:** `GET`, `POST`, `PUT`, `DELETE`, `PATCH`, `HEAD`, `OPTIONS`, `CONNECT`, `TRACE`. 
+      - **GET:** Retrieves a resource from a web server. <br>&nbsp;
+         - When a user enters a URL in the browser, the browser sends a GET request to the web server to fetch the webpage.
+         - 
 </details>
 
 ### 🟡 4. Virtualisation Basics
