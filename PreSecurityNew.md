@@ -174,8 +174,18 @@
       - Mechanisms like token or cookie-based authentication are used to introduce statefulness at the application level. 
       - **Core Commands/Methods:** `GET`, `POST`, `PUT`, `DELETE`, `PATCH`, `HEAD`, `OPTIONS`, `CONNECT`, `TRACE`. 
       - **GET:** Retrieves a resource from a web server. <br>&nbsp;
-         - When a user enters a URL in the browser, the browser sends a GET request to the web server to fetch the webpage.
-         - 
+         - When a user enters a URL in the browser, the browser sends a GET request to the web server..
+         - When the web server receives the GET request, it processes it and sends back the status code (header) and the requested information (body).
+         - **Developer Tools:** <br>&nbsp;
+            - In firefox, `F12` or `right-click -> "Inspect"` opens Developer Tools.
+            - The "Network" tab (after reloading the page) shows all network requests made by the browser.
+            - By clicking on a request we can inspect details such as: <br>&nbsp;
+               - **Scheme:** Protocol used for the request (e.g., HTTP, HTTPS).
+               - **Host:** The server's domain name or IP address.
+               - **Filename:** The specific file or resource being requested (e.g., `/index.html`).
+               - **Address:** The IP address of the server handling the request.
+               - **Status:** The HTTP status code returned by the server (e.g., 200 OK, 404 Not Found). <br>&nbsp;
+            - The response tab shows the response body in HTML format, which is then rendered by the browser to display the webpage. <br>&nbsp;
 </details>
 
 ### 🟡 4. Virtualisation Basics
