@@ -197,7 +197,7 @@
 * **Laboratory Execution:** N/A.
 * **Knowledge Base:** <br>&nbsp;
    - **Virtualization:** <br>&nbsp;
-      - Before, it was "One server = One application". <br>&nbsp;
+      - `"One server = One application"`. <br>&nbsp;
          - **High cost:** Multiple servers, electricity, cooling, maintenance and data center space.
          - **Low utilization:** Servers had 5–20% usage, wasting CPU, memory, and storage resources.
          - **Slow deployment:** Setting up a new server could take days or weeks.
