@@ -188,14 +188,38 @@
             - The response tab shows the response body in HTML format, which is then rendered by the browser to display the webpage. <br>&nbsp;
 </details>
 
-### 🟡 4. Virtualisation Basics
+### ✅ 4. Virtualization Basics
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    
-* **Status:** In Progress (Learning & Documenting).
-* **Objective:** Learn why virtualisation powers modern IT, improving efficiency and safely isolating environments.
-* **Laboratory Execution:**
-* **Knowledge Base:** 
+* **Status:** Completed on 02/03/2026.
+* **Objective:** Learn why virtualization powers modern IT, improving efficiency and safely isolating environments.
+* **Laboratory Execution:** N/A.
+* **Knowledge Base:** <br>&nbsp;
+   - **Virtualization:** <br>&nbsp;
+      - Before, it was "One server = One application". <br>&nbsp;
+         - **High cost:** Multiple servers, electricity, cooling, maintenance and data center space.
+         - **Low utilization:** Servers had 5–20% usage, wasting CPU, memory, and storage resources.
+         - **Slow deployment:** Setting up a new server could take days or weeks.
+         - **Hard to scale:** If application needed more resources, it required buying and setting up new hardware. <br>&nbsp;
+      - It's the process of creating a virtual version of something, such as a server, storage device, network, or even an entire operating system. <br>&nbsp;
+      - Virtualization allows multiple virtual machines (VMs) to run on a single physical machine, sharing its resources while remaining isolated from each other. <br>&nbsp;
+   - **Hypervisor:** <br>&nbsp;
+      - Software that creates and manages virtual machines. <br>&nbsp;
+         - Divides a physical computer into multiple virtual ones.
+         - Gives each VM its own virtual hardware (CPU, memory, storage, network interfaces).
+         - Keeps everything isolated and safe by preventing VMs from interfering with each other or the host system.
+         - Manages life cycle of VMs (start, stop, pause, clone, delete). <br>&nbsp;
+      - Types of Hypervisors: <br>&nbsp;
+         - **Type 1:** Runs directly on the host's physical hardware, making them fast, efficient, and ideal for servers and professional environments (e.g., VMware ESXi, Microsoft Hyper-V).
+         - **Type 2:** Runs within an existing operating system, making them easier to install and ideal for learning, testing, or small setups. (e.g., VMware Workstation, Oracle VirtualBox). <br>&nbsp;
+            - When testing malicious files, we need to ensure that the host machine does not become infected by the malware being tested in the guest machine. <br>&nbsp;
+   - **Virtual Machine (VM):** A software-based emulation of a physical computer that runs an operating system and applications just like a real computer. <br>&nbsp;
+   - **Containers:** <br>&nbsp;
+      - A lightweight form of virtualization that allows applications to run in isolated environments.
+      - Share the host OS kernel while keeping the application and its dependencies isolated from other containers.
+      - Must be compatible with the host OS kernel and architecture. <br>&nbsp;
+         - **Docker:** A popular containerization platform that simplifies the process of creating, deploying, and managing containers. <br>&nbsp;
 </details>
 
 ### 🟡 5. Cloud Computing Fundamentals
