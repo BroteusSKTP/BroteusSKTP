@@ -16,8 +16,8 @@ Welcome to my GitHub! I am currently a 2nd-year **Computer Engineering** student
 - **Networking Infrastructure:** - Cisco Packet Tracer (Routing/Switching), VPNs and Network Traffic Analysis.
 - **Programming:** - Python (Automation scripts), C, Java, JavaScript, and Ruby (Basics).
 
-## Cybersecurity Learning Lab
-I am currently developing my skills in Cybersecurity. You can follow my detailed progress, notes, and labs here:
+## Learning Labs and Projects
+I am currently developing my skills in Cybersecurity and Computer Engineering. You can follow my detailed progress, notes, and labs here:
 
 👉 **[View my Learning Experience & Labs](./LearningLabs.md)**
 
