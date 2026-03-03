@@ -3,6 +3,9 @@
 This is a documented space designed to share my learning experiences and evolution in Cybersecurity.
 
 ---
+## College Projects
+   - [Computer Architecture I - RISC-V Image Denoising](https://github.com/BroteusSKTP/ComputerArchitecture1)
+---
 
 ## TryHackMe
    - **Paths:** <br>&nbsp;
