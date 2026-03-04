@@ -15,6 +15,6 @@ This is a documented space designed to share my learning experiences and evoluti
       - [Cyber Security 101](CyberSecurity101.md)
     
 ---
-[⬅️ **Back to Home**](README.md)
+[**Back to Home**](README.md)
 
 *Updated by: Tiago Palaio (BroteusSK).
