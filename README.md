@@ -24,4 +24,4 @@ I am currently developing my skills in Cybersecurity and Computer Engineering. Y
 ## What I'm working on
 - Documenting my Cybersecurity lab simulations.
 
-[LinkedIn](https://www.linkedin.com/in/tiagopalaio-cybersec)
+**[LinkedIn](https://www.linkedin.com/in/tiagopalaio-cybersec)**
