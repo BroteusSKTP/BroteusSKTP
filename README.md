@@ -19,7 +19,7 @@ Welcome to my GitHub! I am currently a 2nd-year **Computer Engineering** student
 ## Learning Labs and Projects
 I am currently developing my skills in Cybersecurity and Computer Engineering. You can follow my detailed progress, notes, and labs here:
 
-👉 **[View my Learning Experience & Labs](./LearningLabs.md)**
+**[View my Learning Experience & Labs](./LearningLabs.md)**
 
 ## What I'm working on
 - Documenting my Cybersecurity lab simulations.
