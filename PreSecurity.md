@@ -57,7 +57,7 @@
 </details>
 
 ---
-## Network Fundamentals <a href="https://tryhackme.com/BroteusSK/badges/network-fundamentals?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/4e7cfea5-d4f5-45bd-b695-77b30bdc8575" width="42.5" height="50" align="right"></sup></a>
+## Network Fundamentals <a href="https://tryhackme.com/p/BroteusSK?tab=badges"><sup><img src="https://github.com/user-attachments/assets/4e7cfea5-d4f5-45bd-b695-77b30bdc8575" width="42.5" height="50" align="right"></sup></a>
 ---
 ### ✅ 1. What is Networking? <a name="whatisnet"></a>
 <details> <summary><b>Click to see summary</b></summary>
@@ -222,7 +222,7 @@
 </details>
 
 ---
-## How the Web Works <a href="https://tryhackme.com/BroteusSK/badges/world-wide-web?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/33616203-6b9a-4d14-bf13-77a507088849" width="42.5" height="50" align="right"></sup></a>
+## How the Web Works <a href="https://tryhackme.com/p/BroteusSK?tab=badges"><sup><img src="https://github.com/user-attachments/assets/33616203-6b9a-4d14-bf13-77a507088849" width="42.5" height="50" align="right"></sup></a>
 
 ---
 ### ✅ 1. DNS in Detail <a name="dnsdetail"></a>
@@ -261,7 +261,7 @@
       - **Caching & TTL:** The result is cached by the Recursive DNS and the Client for a duration defined by the TTL (Time To Live) in seconds.
 </details>
 
-### ✅ 2. HTTP in Detail [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/af2391fb-4f55-4bdf-a45a-f6528e8b2997" align="right" />](https://tryhackme.com/BroteusSK/badges/web-fund?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc) <a name="httpdetail"></a>
+### ✅ 2. HTTP in Detail [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/af2391fb-4f55-4bdf-a45a-f6528e8b2997" align="right" />](https://tryhackme.com/p/BroteusSK?tab=badges) <a name="httpdetail"></a>
 
 <details> <summary><b>Click to see summary</b></summary>
 <br>
@@ -426,7 +426,7 @@
 ---
 ## Linux Fundamentals
 ---
-### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/BroteusSK/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc) <a name="linuxfund1"></a>
+### ✅ 1. Linux Fundamentals Part 1 [ <img width="42.5" height="50" alt="Badge" src="https://github.com/user-attachments/assets/52883a9b-68b8-43f2-9855-0d353dff8a15" align="right" /> ](https://tryhackme.com/p/BroteusSK?tab=badges) <a name="linuxfund1"></a>
 <details> <summary><b>Click to see summary</b></summary>
 <br>  
    

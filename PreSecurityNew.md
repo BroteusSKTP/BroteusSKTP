@@ -27,7 +27,7 @@
 > Please refer to that section for the full technical summary and lab execution details.
 
 ---
-## Network Fundamentals <a href="https://tryhackme.com/BroteusSK/badges/network-fundamentals?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/4e7cfea5-d4f5-45bd-b695-77b30bdc8575" width="42.5" height="50" align="right"></sup></a>
+## Network Fundamentals <a href="https://tryhackme.com/p/BroteusSK?tab=badges"><sup><img src="https://github.com/user-attachments/assets/4e7cfea5-d4f5-45bd-b695-77b30bdc8575" width="42.5" height="50" align="right"></sup></a>
 ---
 ### ✅ 1. What is Networking?
 > **Note:** This room was previously completed during the [Pre Security](PreSecurity.md#whatisnet) path. 
@@ -50,7 +50,7 @@
 > Please refer to that section for the full technical summary and lab execution details.
 
 ---
-## How the Web Works <a href="https://tryhackme.com/BroteusSK/badges/world-wide-web?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6974c172ca9161618aedacbc"><sup><img src="https://github.com/user-attachments/assets/33616203-6b9a-4d14-bf13-77a507088849" width="42.5" height="50" align="right"></sup></a>
+## How the Web Works <a href="https://tryhackme.com/p/BroteusSK?tab=badges"><sup><img src="https://github.com/user-attachments/assets/33616203-6b9a-4d14-bf13-77a507088849" width="42.5" height="50" align="right"></sup></a>
 
 ---
 ### ✅ 1. DNS in Detail
