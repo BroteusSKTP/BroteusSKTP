@@ -5,6 +5,7 @@ This is a documented space designed to share my learning experiences and evoluti
 ---
 ## College Projects
    - [Computer Architecture I - RISC-V Image Denoising](https://github.com/BroteusSKTP/ComputerArchitecture1)
+   - [Digital Logic Design - Automated Pizza Vending Controller](https://github.com/BroteusSKTP/Digital-Logic-Design)
    - [Computer Graphics - 3JS, C2D, SVG and X3D](https://github.com/BroteusSKTP/ComputerGraphics)
 ---
 
