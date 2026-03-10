@@ -22,6 +22,8 @@ This is a documented space designed to share my college learning projects and ev
 ## Notes
 - Some linked academic repositories and course materials are in Portuguese, matching their original context.
 
+---
+
 [⬅️ **Back to Home**](README.md)
 
 *Updated by: Tiago Palaio (BroteusSK).
