@@ -8,6 +8,7 @@ This is a documented space designed to share my college learning projects and ev
    - [Digital Logic Design - Automated Pizza Vending Controller](https://github.com/BroteusSKTP/Digital-Logic-Design)
    - [Computer Graphics - 3JS, C2D, SVG and X3D](https://github.com/BroteusSKTP/ComputerGraphics)
    - [Machine Learning - ADC MRI Image Classification](https://github.com/BroteusSKTP/Machine-Learning)
+   - [Database Systems - Relational Modeling and SQL](https://github.com/BroteusSKTP/Database-Systems)
 ---
 
 ## TryHackMe
@@ -17,6 +18,10 @@ This is a documented space designed to share my college learning projects and ev
       - [Cyber Security 101](CyberSecurity101.md)
     
 ---
+
+## Notes
+- Some linked academic repositories and course materials are in Portuguese, matching their original context.
+
 [⬅️ **Back to Home**](README.md)
 
 *Updated by: Tiago Palaio (BroteusSK).
