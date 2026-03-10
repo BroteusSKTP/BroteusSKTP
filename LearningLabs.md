@@ -1,6 +1,6 @@
 # My Learning Journey
 
-This is a documented space designed to share my learning experiences and evolution in Cybersecurity.
+This is a documented space designed to share my college learning projects and evolution in Cybersecurity.
 
 ---
 ## College Projects
