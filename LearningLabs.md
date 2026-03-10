@@ -7,6 +7,7 @@ This is a documented space designed to share my college learning projects and ev
    - [Computer Architecture I - RISC-V Image Denoising](https://github.com/BroteusSKTP/ComputerArchitecture1)
    - [Digital Logic Design - Automated Pizza Vending Controller](https://github.com/BroteusSKTP/Digital-Logic-Design)
    - [Computer Graphics - 3JS, C2D, SVG and X3D](https://github.com/BroteusSKTP/ComputerGraphics)
+   - [Machine Learning - ADC MRI Image Classification](https://github.com/BroteusSKTP/Machine-Learning)
 ---
 
 ## TryHackMe
